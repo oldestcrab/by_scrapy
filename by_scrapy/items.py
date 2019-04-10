@@ -12,3 +12,12 @@ class ItcastItem(scrapy.Item):
     name = scrapy.Field()
     level = scrapy.Field()
     info = scrapy.Field()
+
+
+class TencentItem(scrapy.Item):
+    name = scrapy.Field()
+    detail_link = scrapy.Field()
+    position_info = scrapy.Field()
+    people_number = scrapy.Field()
+    work_location = scrapy.Field()
+    publish_time = scrapy.Field()

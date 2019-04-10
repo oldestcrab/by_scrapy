@@ -5,13 +5,13 @@
     "version": "0.2.0",
     "configurations": [
         {
-            "name": "itcast",
+            "name": "tencent",
             "type": "python",
             "request": "launch",
             "module": "scrapy",
             "args": [
                 "crawl",
-                "itcast"
+                "tencent"
             ],
         },
         {
