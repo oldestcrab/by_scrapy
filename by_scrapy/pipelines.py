@@ -22,7 +22,7 @@ class ItcastPipeline(object):
 
 class TencentJobPipeline(object):
     def __init__(self):
-        self.file = open('./TencentJob.json', 'w', encoding='utf-8')
+        self.file = open('./TencentJob_crawl.json', 'w', encoding='utf-8')
     
     def process_item(self, item, spider):
         content = json.dumps(dict(item), ensure_ascii=False) + '\n'

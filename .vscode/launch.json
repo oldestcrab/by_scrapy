@@ -5,13 +5,13 @@
     "version": "0.2.0",
     "configurations": [
         {
-            "name": "tencent",
+            "name": "tencentjob",
             "type": "python",
             "request": "launch",
             "module": "scrapy",
             "args": [
                 "crawl",
-                "tencent"
+                "tencentjob"
             ],
         },
         {
