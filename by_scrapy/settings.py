@@ -25,8 +25,13 @@ ROBOTSTXT_OBEY = False
 #CONCURRENT_REQUESTS = 32
 
 # LOG_FILE =  'TencentSpider.log'
-LOG_FILE =  'DongGuanSpider.log'
+LOG_FILE =  'Douban250.log'
 LOG_LEVEL = 'INFO'
+
+MONGODB_HOST = '127.0.0.1'
+MONGODB_PORT = 27017
+MONGODB_DBNAME = 'DouBan'
+MONGODB_DOCNAME = 'DouBanMovies'
 
 USER_AGENTS = [
 "Mozilla/5.0 (compatible; MSIE 9.0; Windows NT 6.1; Win64; x64; Trident/5.0; .NET CLR 3.5.30729; .NET CLR 3.0.30729; .NET CLR 2.0.50727; Media Center PC 6.0)",
@@ -80,8 +85,9 @@ DOWNLOADER_MIDDLEWARES = {
 # See https://doc.scrapy.org/en/latest/topics/item-pipeline.html
 ITEM_PIPELINES = {
    # 'by_scrapy.pipelines.ItcastPipeline': 300,
-   'by_scrapy.pipelines.DongGuanPipeline': 300,
+   # 'by_scrapy.pipelines.DongGuanPipeline': 300,
    # 'by_scrapy.pipelines.TencentJobPipeline': 300,
+   'by_scrapy.pipelines.Douban250Pipeline': 300,
 }
 
 # Enable and configure the AutoThrottle extension (disabled by default)

@@ -1,0 +1,1133 @@
+2019-04-15 20:51:57 [scrapy.utils.log] INFO: Scrapy 1.6.0 started (bot: by_scrapy)
+2019-04-15 20:51:57 [scrapy.utils.log] INFO: Versions: lxml 4.2.5.0, libxml2 2.9.5, cssselect 1.0.3, parsel 1.5.1, w3lib 1.20.0, Twisted 18.9.0, Python 3.6.8 (tags/v3.6.8:3c6b436a57, Dec 24 2018, 00:16:47) [MSC v.1916 64 bit (AMD64)], pyOpenSSL 19.0.0 (OpenSSL 1.1.1b  26 Feb 2019), cryptography 2.6.1, Platform Windows-10-10.0.16299-SP0
+2019-04-15 20:52:54 [scrapy.utils.log] INFO: Scrapy 1.6.0 started (bot: by_scrapy)
+2019-04-15 20:52:54 [scrapy.utils.log] INFO: Versions: lxml 4.2.5.0, libxml2 2.9.5, cssselect 1.0.3, parsel 1.5.1, w3lib 1.20.0, Twisted 18.9.0, Python 3.6.8 (tags/v3.6.8:3c6b436a57, Dec 24 2018, 00:16:47) [MSC v.1916 64 bit (AMD64)], pyOpenSSL 19.0.0 (OpenSSL 1.1.1b  26 Feb 2019), cryptography 2.6.1, Platform Windows-10-10.0.16299-SP0
+2019-04-15 20:53:33 [scrapy.utils.log] INFO: Scrapy 1.6.0 started (bot: by_scrapy)
+2019-04-15 20:53:33 [scrapy.utils.log] INFO: Versions: lxml 4.2.5.0, libxml2 2.9.5, cssselect 1.0.3, parsel 1.5.1, w3lib 1.20.0, Twisted 18.9.0, Python 3.6.8 (tags/v3.6.8:3c6b436a57, Dec 24 2018, 00:16:47) [MSC v.1916 64 bit (AMD64)], pyOpenSSL 19.0.0 (OpenSSL 1.1.1b  26 Feb 2019), cryptography 2.6.1, Platform Windows-10-10.0.16299-SP0
+2019-04-15 20:53:33 [scrapy.crawler] INFO: Overridden settings: {'BOT_NAME': 'by_scrapy', 'DOWNLOAD_DELAY': 2.5, 'LOG_FILE': 'Douban250.log', 'LOG_LEVEL': 'INFO', 'NEWSPIDER_MODULE': 'by_scrapy.spiders', 'SPIDER_MODULES': ['by_scrapy.spiders']}
+2019-04-15 20:53:34 [scrapy.extensions.telnet] INFO: Telnet Password: 1ef3dc4e01967900
+2019-04-15 20:53:34 [scrapy.middleware] INFO: Enabled extensions:
+['scrapy.extensions.corestats.CoreStats',
+ 'scrapy.extensions.telnet.TelnetConsole',
+ 'scrapy.extensions.logstats.LogStats']
+2019-04-15 20:53:34 [twisted] CRITICAL: Unhandled error in Deferred:
+2019-04-15 20:53:34 [twisted] CRITICAL: 
+Traceback (most recent call last):
+  File "D:\program\program_essential\Python36\virtualenv\spider_env\lib\site-packages\twisted\internet\defer.py", line 1418, in _inlineCallbacks
+    result = g.send(result)
+  File "D:\program\program_essential\Python36\virtualenv\spider_env\lib\site-packages\scrapy\crawler.py", line 80, in crawl
+    self.engine = self._create_engine()
+  File "D:\program\program_essential\Python36\virtualenv\spider_env\lib\site-packages\scrapy\crawler.py", line 105, in _create_engine
+    return ExecutionEngine(self, lambda _: self.stop())
+  File "D:\program\program_essential\Python36\virtualenv\spider_env\lib\site-packages\scrapy\core\engine.py", line 69, in __init__
+    self.downloader = downloader_cls(crawler)
+  File "D:\program\program_essential\Python36\virtualenv\spider_env\lib\site-packages\scrapy\core\downloader\__init__.py", line 88, in __init__
+    self.middleware = DownloaderMiddlewareManager.from_crawler(crawler)
+  File "D:\program\program_essential\Python36\virtualenv\spider_env\lib\site-packages\scrapy\middleware.py", line 53, in from_crawler
+    return cls.from_settings(crawler.settings, crawler)
+  File "D:\program\program_essential\Python36\virtualenv\spider_env\lib\site-packages\scrapy\middleware.py", line 34, in from_settings
+    mwcls = load_object(clspath)
+  File "D:\program\program_essential\Python36\virtualenv\spider_env\lib\site-packages\scrapy\utils\misc.py", line 44, in load_object
+    mod = import_module(module)
+  File "D:\program\program_essential\Python36\virtualenv\spider_env\lib\importlib\__init__.py", line 126, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+  File "<frozen importlib._bootstrap>", line 994, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 971, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 955, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 665, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 678, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "C:\Users\CRAB\Desktop\MY\by_scrapy\by_scrapy\middlewares.py", line 9, in <module>
+    from website_scan.settings import USER_AGENTS
+ModuleNotFoundError: No module named 'website_scan'
+2019-04-15 20:54:16 [scrapy.utils.log] INFO: Scrapy 1.6.0 started (bot: by_scrapy)
+2019-04-15 20:54:16 [scrapy.utils.log] INFO: Versions: lxml 4.2.5.0, libxml2 2.9.5, cssselect 1.0.3, parsel 1.5.1, w3lib 1.20.0, Twisted 18.9.0, Python 3.6.8 (tags/v3.6.8:3c6b436a57, Dec 24 2018, 00:16:47) [MSC v.1916 64 bit (AMD64)], pyOpenSSL 19.0.0 (OpenSSL 1.1.1b  26 Feb 2019), cryptography 2.6.1, Platform Windows-10-10.0.16299-SP0
+2019-04-15 20:54:16 [scrapy.crawler] INFO: Overridden settings: {'BOT_NAME': 'by_scrapy', 'DOWNLOAD_DELAY': 2.5, 'LOG_FILE': 'Douban250.log', 'LOG_LEVEL': 'INFO', 'NEWSPIDER_MODULE': 'by_scrapy.spiders', 'SPIDER_MODULES': ['by_scrapy.spiders']}
+2019-04-15 20:54:16 [scrapy.extensions.telnet] INFO: Telnet Password: 98240561cddff02a
+2019-04-15 20:54:16 [scrapy.middleware] INFO: Enabled extensions:
+['scrapy.extensions.corestats.CoreStats',
+ 'scrapy.extensions.telnet.TelnetConsole',
+ 'scrapy.extensions.logstats.LogStats']
+2019-04-15 20:54:16 [scrapy.middleware] INFO: Enabled downloader middlewares:
+['by_scrapy.middlewares.RandomUserAgent',
+ 'scrapy.downloadermiddlewares.httpauth.HttpAuthMiddleware',
+ 'scrapy.downloadermiddlewares.downloadtimeout.DownloadTimeoutMiddleware',
+ 'scrapy.downloadermiddlewares.defaultheaders.DefaultHeadersMiddleware',
+ 'scrapy.downloadermiddlewares.useragent.UserAgentMiddleware',
+ 'scrapy.downloadermiddlewares.retry.RetryMiddleware',
+ 'scrapy.downloadermiddlewares.redirect.MetaRefreshMiddleware',
+ 'scrapy.downloadermiddlewares.httpcompression.HttpCompressionMiddleware',
+ 'scrapy.downloadermiddlewares.redirect.RedirectMiddleware',
+ 'scrapy.downloadermiddlewares.cookies.CookiesMiddleware',
+ 'scrapy.downloadermiddlewares.httpproxy.HttpProxyMiddleware',
+ 'scrapy.downloadermiddlewares.stats.DownloaderStats']
+2019-04-15 20:54:16 [scrapy.middleware] INFO: Enabled spider middlewares:
+['scrapy.spidermiddlewares.httperror.HttpErrorMiddleware',
+ 'scrapy.spidermiddlewares.offsite.OffsiteMiddleware',
+ 'scrapy.spidermiddlewares.referer.RefererMiddleware',
+ 'scrapy.spidermiddlewares.urllength.UrlLengthMiddleware',
+ 'scrapy.spidermiddlewares.depth.DepthMiddleware']
+2019-04-15 20:54:16 [scrapy.middleware] INFO: Enabled item pipelines:
+[]
+2019-04-15 20:54:16 [scrapy.core.engine] INFO: Spider opened
+2019-04-15 20:54:16 [scrapy.extensions.logstats] INFO: Crawled 0 pages (at 0 pages/min), scraped 0 items (at 0 items/min)
+2019-04-15 20:54:16 [scrapy.extensions.telnet] INFO: Telnet console listening on 127.0.0.1:6023
+2019-04-15 20:54:18 [scrapy.core.scraper] ERROR: Spider error processing <GET https://movie.douban.com/top250?start=25&filter=> (referer: https://movie.douban.com/top250)
+Traceback (most recent call last):
+  File "D:\program\program_essential\Python36\virtualenv\spider_env\lib\site-packages\scrapy\utils\defer.py", line 102, in iter_errback
+    yield next(it)
+  File "D:\program\program_essential\Python36\virtualenv\spider_env\lib\site-packages\scrapy\spidermiddlewares\offsite.py", line 29, in process_spider_output
+    for x in result:
+  File "D:\program\program_essential\Python36\virtualenv\spider_env\lib\site-packages\scrapy\spidermiddlewares\referer.py", line 339, in <genexpr>
+    return (_set_referer(r) for r in result or ())
+  File "D:\program\program_essential\Python36\virtualenv\spider_env\lib\site-packages\scrapy\spidermiddlewares\urllength.py", line 37, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "D:\program\program_essential\Python36\virtualenv\spider_env\lib\site-packages\scrapy\spidermiddlewares\depth.py", line 58, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "D:\program\program_essential\Python36\virtualenv\spider_env\lib\site-packages\scrapy\spiders\crawl.py", line 78, in _parse_response
+    for requests_or_item in iterate_spider_output(cb_res):
+  File "C:\Users\CRAB\Desktop\MY\by_scrapy\by_scrapy\spiders\douban250.py", line 26, in parse_page
+    items['title'] = ''.join(x.strip for x in title)
+TypeError: sequence item 0: expected str instance, builtin_function_or_method found
+2019-04-15 20:54:23 [scrapy.core.scraper] ERROR: Spider error processing <GET https://movie.douban.com/top250?start=225&filter=> (referer: https://movie.douban.com/top250)
+Traceback (most recent call last):
+  File "D:\program\program_essential\Python36\virtualenv\spider_env\lib\site-packages\scrapy\utils\defer.py", line 102, in iter_errback
+    yield next(it)
+  File "D:\program\program_essential\Python36\virtualenv\spider_env\lib\site-packages\scrapy\spidermiddlewares\offsite.py", line 29, in process_spider_output
+    for x in result:
+  File "D:\program\program_essential\Python36\virtualenv\spider_env\lib\site-packages\scrapy\spidermiddlewares\referer.py", line 339, in <genexpr>
+    return (_set_referer(r) for r in result or ())
+  File "D:\program\program_essential\Python36\virtualenv\spider_env\lib\site-packages\scrapy\spidermiddlewares\urllength.py", line 37, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "D:\program\program_essential\Python36\virtualenv\spider_env\lib\site-packages\scrapy\spidermiddlewares\depth.py", line 58, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "D:\program\program_essential\Python36\virtualenv\spider_env\lib\site-packages\scrapy\spiders\crawl.py", line 78, in _parse_response
+    for requests_or_item in iterate_spider_output(cb_res):
+  File "C:\Users\CRAB\Desktop\MY\by_scrapy\by_scrapy\spiders\douban250.py", line 26, in parse_page
+    items['title'] = ''.join(x.strip for x in title)
+TypeError: sequence item 0: expected str instance, builtin_function_or_method found
+2019-04-15 20:54:26 [scrapy.core.scraper] ERROR: Spider error processing <GET https://movie.douban.com/top250?start=200&filter=> (referer: https://movie.douban.com/top250)
+Traceback (most recent call last):
+  File "D:\program\program_essential\Python36\virtualenv\spider_env\lib\site-packages\scrapy\utils\defer.py", line 102, in iter_errback
+    yield next(it)
+  File "D:\program\program_essential\Python36\virtualenv\spider_env\lib\site-packages\scrapy\spidermiddlewares\offsite.py", line 29, in process_spider_output
+    for x in result:
+  File "D:\program\program_essential\Python36\virtualenv\spider_env\lib\site-packages\scrapy\spidermiddlewares\referer.py", line 339, in <genexpr>
+    return (_set_referer(r) for r in result or ())
+  File "D:\program\program_essential\Python36\virtualenv\spider_env\lib\site-packages\scrapy\spidermiddlewares\urllength.py", line 37, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "D:\program\program_essential\Python36\virtualenv\spider_env\lib\site-packages\scrapy\spidermiddlewares\depth.py", line 58, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "D:\program\program_essential\Python36\virtualenv\spider_env\lib\site-packages\scrapy\spiders\crawl.py", line 78, in _parse_response
+    for requests_or_item in iterate_spider_output(cb_res):
+  File "C:\Users\CRAB\Desktop\MY\by_scrapy\by_scrapy\spiders\douban250.py", line 26, in parse_page
+    items['title'] = ''.join(x.strip for x in title)
+TypeError: sequence item 0: expected str instance, builtin_function_or_method found
+2019-04-15 20:54:30 [scrapy.core.scraper] ERROR: Spider error processing <GET https://movie.douban.com/top250?start=175&filter=> (referer: https://movie.douban.com/top250)
+Traceback (most recent call last):
+  File "D:\program\program_essential\Python36\virtualenv\spider_env\lib\site-packages\scrapy\utils\defer.py", line 102, in iter_errback
+    yield next(it)
+  File "D:\program\program_essential\Python36\virtualenv\spider_env\lib\site-packages\scrapy\spidermiddlewares\offsite.py", line 29, in process_spider_output
+    for x in result:
+  File "D:\program\program_essential\Python36\virtualenv\spider_env\lib\site-packages\scrapy\spidermiddlewares\referer.py", line 339, in <genexpr>
+    return (_set_referer(r) for r in result or ())
+  File "D:\program\program_essential\Python36\virtualenv\spider_env\lib\site-packages\scrapy\spidermiddlewares\urllength.py", line 37, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "D:\program\program_essential\Python36\virtualenv\spider_env\lib\site-packages\scrapy\spidermiddlewares\depth.py", line 58, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "D:\program\program_essential\Python36\virtualenv\spider_env\lib\site-packages\scrapy\spiders\crawl.py", line 78, in _parse_response
+    for requests_or_item in iterate_spider_output(cb_res):
+  File "C:\Users\CRAB\Desktop\MY\by_scrapy\by_scrapy\spiders\douban250.py", line 26, in parse_page
+    items['title'] = ''.join(x.strip for x in title)
+TypeError: sequence item 0: expected str instance, builtin_function_or_method found
+2019-04-15 20:54:33 [scrapy.core.scraper] ERROR: Spider error processing <GET https://movie.douban.com/top250?start=150&filter=> (referer: https://movie.douban.com/top250)
+Traceback (most recent call last):
+  File "D:\program\program_essential\Python36\virtualenv\spider_env\lib\site-packages\scrapy\utils\defer.py", line 102, in iter_errback
+    yield next(it)
+  File "D:\program\program_essential\Python36\virtualenv\spider_env\lib\site-packages\scrapy\spidermiddlewares\offsite.py", line 29, in process_spider_output
+    for x in result:
+  File "D:\program\program_essential\Python36\virtualenv\spider_env\lib\site-packages\scrapy\spidermiddlewares\referer.py", line 339, in <genexpr>
+    return (_set_referer(r) for r in result or ())
+  File "D:\program\program_essential\Python36\virtualenv\spider_env\lib\site-packages\scrapy\spidermiddlewares\urllength.py", line 37, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "D:\program\program_essential\Python36\virtualenv\spider_env\lib\site-packages\scrapy\spidermiddlewares\depth.py", line 58, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "D:\program\program_essential\Python36\virtualenv\spider_env\lib\site-packages\scrapy\spiders\crawl.py", line 78, in _parse_response
+    for requests_or_item in iterate_spider_output(cb_res):
+  File "C:\Users\CRAB\Desktop\MY\by_scrapy\by_scrapy\spiders\douban250.py", line 26, in parse_page
+    items['title'] = ''.join(x.strip for x in title)
+TypeError: sequence item 0: expected str instance, builtin_function_or_method found
+2019-04-15 20:54:36 [scrapy.core.scraper] ERROR: Spider error processing <GET https://movie.douban.com/top250?start=125&filter=> (referer: https://movie.douban.com/top250)
+Traceback (most recent call last):
+  File "D:\program\program_essential\Python36\virtualenv\spider_env\lib\site-packages\scrapy\utils\defer.py", line 102, in iter_errback
+    yield next(it)
+  File "D:\program\program_essential\Python36\virtualenv\spider_env\lib\site-packages\scrapy\spidermiddlewares\offsite.py", line 29, in process_spider_output
+    for x in result:
+  File "D:\program\program_essential\Python36\virtualenv\spider_env\lib\site-packages\scrapy\spidermiddlewares\referer.py", line 339, in <genexpr>
+    return (_set_referer(r) for r in result or ())
+  File "D:\program\program_essential\Python36\virtualenv\spider_env\lib\site-packages\scrapy\spidermiddlewares\urllength.py", line 37, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "D:\program\program_essential\Python36\virtualenv\spider_env\lib\site-packages\scrapy\spidermiddlewares\depth.py", line 58, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "D:\program\program_essential\Python36\virtualenv\spider_env\lib\site-packages\scrapy\spiders\crawl.py", line 78, in _parse_response
+    for requests_or_item in iterate_spider_output(cb_res):
+  File "C:\Users\CRAB\Desktop\MY\by_scrapy\by_scrapy\spiders\douban250.py", line 26, in parse_page
+    items['title'] = ''.join(x.strip for x in title)
+TypeError: sequence item 0: expected str instance, builtin_function_or_method found
+2019-04-15 20:54:40 [scrapy.core.scraper] ERROR: Spider error processing <GET https://movie.douban.com/top250?start=100&filter=> (referer: https://movie.douban.com/top250)
+Traceback (most recent call last):
+  File "D:\program\program_essential\Python36\virtualenv\spider_env\lib\site-packages\scrapy\utils\defer.py", line 102, in iter_errback
+    yield next(it)
+  File "D:\program\program_essential\Python36\virtualenv\spider_env\lib\site-packages\scrapy\spidermiddlewares\offsite.py", line 29, in process_spider_output
+    for x in result:
+  File "D:\program\program_essential\Python36\virtualenv\spider_env\lib\site-packages\scrapy\spidermiddlewares\referer.py", line 339, in <genexpr>
+    return (_set_referer(r) for r in result or ())
+  File "D:\program\program_essential\Python36\virtualenv\spider_env\lib\site-packages\scrapy\spidermiddlewares\urllength.py", line 37, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "D:\program\program_essential\Python36\virtualenv\spider_env\lib\site-packages\scrapy\spidermiddlewares\depth.py", line 58, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "D:\program\program_essential\Python36\virtualenv\spider_env\lib\site-packages\scrapy\spiders\crawl.py", line 78, in _parse_response
+    for requests_or_item in iterate_spider_output(cb_res):
+  File "C:\Users\CRAB\Desktop\MY\by_scrapy\by_scrapy\spiders\douban250.py", line 26, in parse_page
+    items['title'] = ''.join(x.strip for x in title)
+TypeError: sequence item 0: expected str instance, builtin_function_or_method found
+2019-04-15 20:54:43 [scrapy.core.scraper] ERROR: Spider error processing <GET https://movie.douban.com/top250?start=75&filter=> (referer: https://movie.douban.com/top250)
+Traceback (most recent call last):
+  File "D:\program\program_essential\Python36\virtualenv\spider_env\lib\site-packages\scrapy\utils\defer.py", line 102, in iter_errback
+    yield next(it)
+  File "D:\program\program_essential\Python36\virtualenv\spider_env\lib\site-packages\scrapy\spidermiddlewares\offsite.py", line 29, in process_spider_output
+    for x in result:
+  File "D:\program\program_essential\Python36\virtualenv\spider_env\lib\site-packages\scrapy\spidermiddlewares\referer.py", line 339, in <genexpr>
+    return (_set_referer(r) for r in result or ())
+  File "D:\program\program_essential\Python36\virtualenv\spider_env\lib\site-packages\scrapy\spidermiddlewares\urllength.py", line 37, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "D:\program\program_essential\Python36\virtualenv\spider_env\lib\site-packages\scrapy\spidermiddlewares\depth.py", line 58, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "D:\program\program_essential\Python36\virtualenv\spider_env\lib\site-packages\scrapy\spiders\crawl.py", line 78, in _parse_response
+    for requests_or_item in iterate_spider_output(cb_res):
+  File "C:\Users\CRAB\Desktop\MY\by_scrapy\by_scrapy\spiders\douban250.py", line 26, in parse_page
+    items['title'] = ''.join(x.strip for x in title)
+TypeError: sequence item 0: expected str instance, builtin_function_or_method found
+2019-04-15 20:54:46 [scrapy.core.scraper] ERROR: Spider error processing <GET https://movie.douban.com/top250?start=50&filter=> (referer: https://movie.douban.com/top250)
+Traceback (most recent call last):
+  File "D:\program\program_essential\Python36\virtualenv\spider_env\lib\site-packages\scrapy\utils\defer.py", line 102, in iter_errback
+    yield next(it)
+  File "D:\program\program_essential\Python36\virtualenv\spider_env\lib\site-packages\scrapy\spidermiddlewares\offsite.py", line 29, in process_spider_output
+    for x in result:
+  File "D:\program\program_essential\Python36\virtualenv\spider_env\lib\site-packages\scrapy\spidermiddlewares\referer.py", line 339, in <genexpr>
+    return (_set_referer(r) for r in result or ())
+  File "D:\program\program_essential\Python36\virtualenv\spider_env\lib\site-packages\scrapy\spidermiddlewares\urllength.py", line 37, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "D:\program\program_essential\Python36\virtualenv\spider_env\lib\site-packages\scrapy\spidermiddlewares\depth.py", line 58, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "D:\program\program_essential\Python36\virtualenv\spider_env\lib\site-packages\scrapy\spiders\crawl.py", line 78, in _parse_response
+    for requests_or_item in iterate_spider_output(cb_res):
+  File "C:\Users\CRAB\Desktop\MY\by_scrapy\by_scrapy\spiders\douban250.py", line 26, in parse_page
+    items['title'] = ''.join(x.strip for x in title)
+TypeError: sequence item 0: expected str instance, builtin_function_or_method found
+2019-04-15 20:54:57 [scrapy.utils.log] INFO: Scrapy 1.6.0 started (bot: by_scrapy)
+2019-04-15 20:54:57 [scrapy.utils.log] INFO: Versions: lxml 4.2.5.0, libxml2 2.9.5, cssselect 1.0.3, parsel 1.5.1, w3lib 1.20.0, Twisted 18.9.0, Python 3.6.8 (tags/v3.6.8:3c6b436a57, Dec 24 2018, 00:16:47) [MSC v.1916 64 bit (AMD64)], pyOpenSSL 19.0.0 (OpenSSL 1.1.1b  26 Feb 2019), cryptography 2.6.1, Platform Windows-10-10.0.16299-SP0
+2019-04-15 20:54:57 [scrapy.crawler] INFO: Overridden settings: {'BOT_NAME': 'by_scrapy', 'DOWNLOAD_DELAY': 2.5, 'LOG_FILE': 'Douban250.log', 'LOG_LEVEL': 'INFO', 'NEWSPIDER_MODULE': 'by_scrapy.spiders', 'SPIDER_MODULES': ['by_scrapy.spiders']}
+2019-04-15 20:54:57 [scrapy.extensions.telnet] INFO: Telnet Password: d4fab3ae073495dd
+2019-04-15 20:54:57 [scrapy.middleware] INFO: Enabled extensions:
+['scrapy.extensions.corestats.CoreStats',
+ 'scrapy.extensions.telnet.TelnetConsole',
+ 'scrapy.extensions.logstats.LogStats']
+2019-04-15 20:54:57 [scrapy.middleware] INFO: Enabled downloader middlewares:
+['by_scrapy.middlewares.RandomUserAgent',
+ 'scrapy.downloadermiddlewares.httpauth.HttpAuthMiddleware',
+ 'scrapy.downloadermiddlewares.downloadtimeout.DownloadTimeoutMiddleware',
+ 'scrapy.downloadermiddlewares.defaultheaders.DefaultHeadersMiddleware',
+ 'scrapy.downloadermiddlewares.useragent.UserAgentMiddleware',
+ 'scrapy.downloadermiddlewares.retry.RetryMiddleware',
+ 'scrapy.downloadermiddlewares.redirect.MetaRefreshMiddleware',
+ 'scrapy.downloadermiddlewares.httpcompression.HttpCompressionMiddleware',
+ 'scrapy.downloadermiddlewares.redirect.RedirectMiddleware',
+ 'scrapy.downloadermiddlewares.cookies.CookiesMiddleware',
+ 'scrapy.downloadermiddlewares.httpproxy.HttpProxyMiddleware',
+ 'scrapy.downloadermiddlewares.stats.DownloaderStats']
+2019-04-15 20:54:57 [scrapy.middleware] INFO: Enabled spider middlewares:
+['scrapy.spidermiddlewares.httperror.HttpErrorMiddleware',
+ 'scrapy.spidermiddlewares.offsite.OffsiteMiddleware',
+ 'scrapy.spidermiddlewares.referer.RefererMiddleware',
+ 'scrapy.spidermiddlewares.urllength.UrlLengthMiddleware',
+ 'scrapy.spidermiddlewares.depth.DepthMiddleware']
+2019-04-15 20:54:57 [scrapy.middleware] INFO: Enabled item pipelines:
+[]
+2019-04-15 20:54:57 [scrapy.core.engine] INFO: Spider opened
+2019-04-15 20:54:57 [scrapy.extensions.logstats] INFO: Crawled 0 pages (at 0 pages/min), scraped 0 items (at 0 items/min)
+2019-04-15 20:54:57 [scrapy.extensions.telnet] INFO: Telnet console listening on 127.0.0.1:6023
+2019-04-15 20:55:31 [scrapy.utils.log] INFO: Scrapy 1.6.0 started (bot: by_scrapy)
+2019-04-15 20:55:31 [scrapy.utils.log] INFO: Versions: lxml 4.2.5.0, libxml2 2.9.5, cssselect 1.0.3, parsel 1.5.1, w3lib 1.20.0, Twisted 18.9.0, Python 3.6.8 (tags/v3.6.8:3c6b436a57, Dec 24 2018, 00:16:47) [MSC v.1916 64 bit (AMD64)], pyOpenSSL 19.0.0 (OpenSSL 1.1.1b  26 Feb 2019), cryptography 2.6.1, Platform Windows-10-10.0.16299-SP0
+2019-04-15 20:55:31 [scrapy.crawler] INFO: Overridden settings: {'BOT_NAME': 'by_scrapy', 'DOWNLOAD_DELAY': 2.5, 'LOG_FILE': 'Douban250.log', 'LOG_LEVEL': 'INFO', 'NEWSPIDER_MODULE': 'by_scrapy.spiders', 'SPIDER_MODULES': ['by_scrapy.spiders']}
+2019-04-15 20:55:31 [scrapy.extensions.telnet] INFO: Telnet Password: 119920b9c4be2ddd
+2019-04-15 20:55:31 [scrapy.middleware] INFO: Enabled extensions:
+['scrapy.extensions.corestats.CoreStats',
+ 'scrapy.extensions.telnet.TelnetConsole',
+ 'scrapy.extensions.logstats.LogStats']
+2019-04-15 20:55:31 [scrapy.middleware] INFO: Enabled downloader middlewares:
+['by_scrapy.middlewares.RandomUserAgent',
+ 'scrapy.downloadermiddlewares.httpauth.HttpAuthMiddleware',
+ 'scrapy.downloadermiddlewares.downloadtimeout.DownloadTimeoutMiddleware',
+ 'scrapy.downloadermiddlewares.defaultheaders.DefaultHeadersMiddleware',
+ 'scrapy.downloadermiddlewares.useragent.UserAgentMiddleware',
+ 'scrapy.downloadermiddlewares.retry.RetryMiddleware',
+ 'scrapy.downloadermiddlewares.redirect.MetaRefreshMiddleware',
+ 'scrapy.downloadermiddlewares.httpcompression.HttpCompressionMiddleware',
+ 'scrapy.downloadermiddlewares.redirect.RedirectMiddleware',
+ 'scrapy.downloadermiddlewares.cookies.CookiesMiddleware',
+ 'scrapy.downloadermiddlewares.httpproxy.HttpProxyMiddleware',
+ 'scrapy.downloadermiddlewares.stats.DownloaderStats']
+2019-04-15 20:55:31 [scrapy.middleware] INFO: Enabled spider middlewares:
+['scrapy.spidermiddlewares.httperror.HttpErrorMiddleware',
+ 'scrapy.spidermiddlewares.offsite.OffsiteMiddleware',
+ 'scrapy.spidermiddlewares.referer.RefererMiddleware',
+ 'scrapy.spidermiddlewares.urllength.UrlLengthMiddleware',
+ 'scrapy.spidermiddlewares.depth.DepthMiddleware']
+2019-04-15 20:55:31 [scrapy.middleware] INFO: Enabled item pipelines:
+[]
+2019-04-15 20:55:31 [scrapy.core.engine] INFO: Spider opened
+2019-04-15 20:55:31 [scrapy.extensions.logstats] INFO: Crawled 0 pages (at 0 pages/min), scraped 0 items (at 0 items/min)
+2019-04-15 20:55:31 [scrapy.extensions.telnet] INFO: Telnet console listening on 127.0.0.1:6023
+2019-04-15 20:56:31 [scrapy.extensions.logstats] INFO: Crawled 19 pages (at 19 pages/min), scraped 18 items (at 18 items/min)
+2019-04-15 20:57:23 [scrapy.utils.log] INFO: Scrapy 1.6.0 started (bot: by_scrapy)
+2019-04-15 20:57:23 [scrapy.utils.log] INFO: Versions: lxml 4.2.5.0, libxml2 2.9.5, cssselect 1.0.3, parsel 1.5.1, w3lib 1.20.0, Twisted 18.9.0, Python 3.6.8 (tags/v3.6.8:3c6b436a57, Dec 24 2018, 00:16:47) [MSC v.1916 64 bit (AMD64)], pyOpenSSL 19.0.0 (OpenSSL 1.1.1b  26 Feb 2019), cryptography 2.6.1, Platform Windows-10-10.0.16299-SP0
+2019-04-15 20:57:23 [scrapy.crawler] INFO: Overridden settings: {'BOT_NAME': 'by_scrapy', 'DOWNLOAD_DELAY': 2.5, 'LOG_FILE': 'Douban250.log', 'LOG_LEVEL': 'INFO', 'NEWSPIDER_MODULE': 'by_scrapy.spiders', 'SPIDER_MODULES': ['by_scrapy.spiders']}
+2019-04-15 20:57:23 [scrapy.extensions.telnet] INFO: Telnet Password: 74a068750956bfbb
+2019-04-15 20:57:23 [scrapy.middleware] INFO: Enabled extensions:
+['scrapy.extensions.corestats.CoreStats',
+ 'scrapy.extensions.telnet.TelnetConsole',
+ 'scrapy.extensions.logstats.LogStats']
+2019-04-15 20:57:23 [scrapy.middleware] INFO: Enabled downloader middlewares:
+['by_scrapy.middlewares.RandomUserAgent',
+ 'scrapy.downloadermiddlewares.httpauth.HttpAuthMiddleware',
+ 'scrapy.downloadermiddlewares.downloadtimeout.DownloadTimeoutMiddleware',
+ 'scrapy.downloadermiddlewares.defaultheaders.DefaultHeadersMiddleware',
+ 'scrapy.downloadermiddlewares.useragent.UserAgentMiddleware',
+ 'scrapy.downloadermiddlewares.retry.RetryMiddleware',
+ 'scrapy.downloadermiddlewares.redirect.MetaRefreshMiddleware',
+ 'scrapy.downloadermiddlewares.httpcompression.HttpCompressionMiddleware',
+ 'scrapy.downloadermiddlewares.redirect.RedirectMiddleware',
+ 'scrapy.downloadermiddlewares.cookies.CookiesMiddleware',
+ 'scrapy.downloadermiddlewares.httpproxy.HttpProxyMiddleware',
+ 'scrapy.downloadermiddlewares.stats.DownloaderStats']
+2019-04-15 20:57:23 [scrapy.middleware] INFO: Enabled spider middlewares:
+['scrapy.spidermiddlewares.httperror.HttpErrorMiddleware',
+ 'scrapy.spidermiddlewares.offsite.OffsiteMiddleware',
+ 'scrapy.spidermiddlewares.referer.RefererMiddleware',
+ 'scrapy.spidermiddlewares.urllength.UrlLengthMiddleware',
+ 'scrapy.spidermiddlewares.depth.DepthMiddleware']
+2019-04-15 20:57:23 [scrapy.middleware] INFO: Enabled item pipelines:
+[]
+2019-04-15 20:57:23 [scrapy.core.engine] INFO: Spider opened
+2019-04-15 20:57:23 [scrapy.extensions.logstats] INFO: Crawled 0 pages (at 0 pages/min), scraped 0 items (at 0 items/min)
+2019-04-15 20:57:23 [scrapy.extensions.telnet] INFO: Telnet console listening on 127.0.0.1:6023
+2019-04-15 20:58:40 [scrapy.utils.log] INFO: Scrapy 1.6.0 started (bot: by_scrapy)
+2019-04-15 20:58:40 [scrapy.utils.log] INFO: Versions: lxml 4.2.5.0, libxml2 2.9.5, cssselect 1.0.3, parsel 1.5.1, w3lib 1.20.0, Twisted 18.9.0, Python 3.6.8 (tags/v3.6.8:3c6b436a57, Dec 24 2018, 00:16:47) [MSC v.1916 64 bit (AMD64)], pyOpenSSL 19.0.0 (OpenSSL 1.1.1b  26 Feb 2019), cryptography 2.6.1, Platform Windows-10-10.0.16299-SP0
+2019-04-15 20:58:40 [scrapy.crawler] INFO: Overridden settings: {'BOT_NAME': 'by_scrapy', 'DOWNLOAD_DELAY': 2.5, 'LOG_FILE': 'Douban250.log', 'LOG_LEVEL': 'INFO', 'NEWSPIDER_MODULE': 'by_scrapy.spiders', 'SPIDER_MODULES': ['by_scrapy.spiders']}
+2019-04-15 20:58:40 [scrapy.extensions.telnet] INFO: Telnet Password: 0fb26c83fc2118c9
+2019-04-15 20:58:40 [scrapy.middleware] INFO: Enabled extensions:
+['scrapy.extensions.corestats.CoreStats',
+ 'scrapy.extensions.telnet.TelnetConsole',
+ 'scrapy.extensions.logstats.LogStats']
+2019-04-15 20:58:40 [scrapy.middleware] INFO: Enabled downloader middlewares:
+['by_scrapy.middlewares.RandomUserAgent',
+ 'scrapy.downloadermiddlewares.httpauth.HttpAuthMiddleware',
+ 'scrapy.downloadermiddlewares.downloadtimeout.DownloadTimeoutMiddleware',
+ 'scrapy.downloadermiddlewares.defaultheaders.DefaultHeadersMiddleware',
+ 'scrapy.downloadermiddlewares.useragent.UserAgentMiddleware',
+ 'scrapy.downloadermiddlewares.retry.RetryMiddleware',
+ 'scrapy.downloadermiddlewares.redirect.MetaRefreshMiddleware',
+ 'scrapy.downloadermiddlewares.httpcompression.HttpCompressionMiddleware',
+ 'scrapy.downloadermiddlewares.redirect.RedirectMiddleware',
+ 'scrapy.downloadermiddlewares.cookies.CookiesMiddleware',
+ 'scrapy.downloadermiddlewares.httpproxy.HttpProxyMiddleware',
+ 'scrapy.downloadermiddlewares.stats.DownloaderStats']
+2019-04-15 20:58:40 [scrapy.middleware] INFO: Enabled spider middlewares:
+['scrapy.spidermiddlewares.httperror.HttpErrorMiddleware',
+ 'scrapy.spidermiddlewares.offsite.OffsiteMiddleware',
+ 'scrapy.spidermiddlewares.referer.RefererMiddleware',
+ 'scrapy.spidermiddlewares.urllength.UrlLengthMiddleware',
+ 'scrapy.spidermiddlewares.depth.DepthMiddleware']
+2019-04-15 20:58:40 [scrapy.middleware] INFO: Enabled item pipelines:
+[]
+2019-04-15 20:58:40 [scrapy.core.engine] INFO: Spider opened
+2019-04-15 20:58:40 [scrapy.extensions.logstats] INFO: Crawled 0 pages (at 0 pages/min), scraped 0 items (at 0 items/min)
+2019-04-15 20:58:40 [scrapy.extensions.telnet] INFO: Telnet console listening on 127.0.0.1:6023
+2019-04-15 20:59:25 [scrapy.utils.log] INFO: Scrapy 1.6.0 started (bot: by_scrapy)
+2019-04-15 20:59:25 [scrapy.utils.log] INFO: Versions: lxml 4.2.5.0, libxml2 2.9.5, cssselect 1.0.3, parsel 1.5.1, w3lib 1.20.0, Twisted 18.9.0, Python 3.6.8 (tags/v3.6.8:3c6b436a57, Dec 24 2018, 00:16:47) [MSC v.1916 64 bit (AMD64)], pyOpenSSL 19.0.0 (OpenSSL 1.1.1b  26 Feb 2019), cryptography 2.6.1, Platform Windows-10-10.0.16299-SP0
+2019-04-15 20:59:25 [scrapy.crawler] INFO: Overridden settings: {'BOT_NAME': 'by_scrapy', 'DOWNLOAD_DELAY': 2.5, 'LOG_FILE': 'Douban250.log', 'LOG_LEVEL': 'INFO', 'NEWSPIDER_MODULE': 'by_scrapy.spiders', 'SPIDER_MODULES': ['by_scrapy.spiders']}
+2019-04-15 20:59:25 [scrapy.extensions.telnet] INFO: Telnet Password: 4fdbba41c58553b1
+2019-04-15 20:59:25 [scrapy.middleware] INFO: Enabled extensions:
+['scrapy.extensions.corestats.CoreStats',
+ 'scrapy.extensions.telnet.TelnetConsole',
+ 'scrapy.extensions.logstats.LogStats']
+2019-04-15 20:59:25 [scrapy.middleware] INFO: Enabled downloader middlewares:
+['by_scrapy.middlewares.RandomUserAgent',
+ 'scrapy.downloadermiddlewares.httpauth.HttpAuthMiddleware',
+ 'scrapy.downloadermiddlewares.downloadtimeout.DownloadTimeoutMiddleware',
+ 'scrapy.downloadermiddlewares.defaultheaders.DefaultHeadersMiddleware',
+ 'scrapy.downloadermiddlewares.useragent.UserAgentMiddleware',
+ 'scrapy.downloadermiddlewares.retry.RetryMiddleware',
+ 'scrapy.downloadermiddlewares.redirect.MetaRefreshMiddleware',
+ 'scrapy.downloadermiddlewares.httpcompression.HttpCompressionMiddleware',
+ 'scrapy.downloadermiddlewares.redirect.RedirectMiddleware',
+ 'scrapy.downloadermiddlewares.cookies.CookiesMiddleware',
+ 'scrapy.downloadermiddlewares.httpproxy.HttpProxyMiddleware',
+ 'scrapy.downloadermiddlewares.stats.DownloaderStats']
+2019-04-15 20:59:25 [scrapy.middleware] INFO: Enabled spider middlewares:
+['scrapy.spidermiddlewares.httperror.HttpErrorMiddleware',
+ 'scrapy.spidermiddlewares.offsite.OffsiteMiddleware',
+ 'scrapy.spidermiddlewares.referer.RefererMiddleware',
+ 'scrapy.spidermiddlewares.urllength.UrlLengthMiddleware',
+ 'scrapy.spidermiddlewares.depth.DepthMiddleware']
+2019-04-15 20:59:25 [scrapy.middleware] INFO: Enabled item pipelines:
+[]
+2019-04-15 20:59:25 [scrapy.core.engine] INFO: Spider opened
+2019-04-15 20:59:25 [scrapy.extensions.logstats] INFO: Crawled 0 pages (at 0 pages/min), scraped 0 items (at 0 items/min)
+2019-04-15 20:59:25 [scrapy.extensions.telnet] INFO: Telnet console listening on 127.0.0.1:6023
+2019-04-15 21:01:17 [scrapy.utils.log] INFO: Scrapy 1.6.0 started (bot: by_scrapy)
+2019-04-15 21:01:17 [scrapy.utils.log] INFO: Versions: lxml 4.2.5.0, libxml2 2.9.5, cssselect 1.0.3, parsel 1.5.1, w3lib 1.20.0, Twisted 18.9.0, Python 3.6.8 (tags/v3.6.8:3c6b436a57, Dec 24 2018, 00:16:47) [MSC v.1916 64 bit (AMD64)], pyOpenSSL 19.0.0 (OpenSSL 1.1.1b  26 Feb 2019), cryptography 2.6.1, Platform Windows-10-10.0.16299-SP0
+2019-04-15 21:01:17 [scrapy.crawler] INFO: Overridden settings: {'BOT_NAME': 'by_scrapy', 'DOWNLOAD_DELAY': 2.5, 'LOG_FILE': 'Douban250.log', 'LOG_LEVEL': 'INFO', 'NEWSPIDER_MODULE': 'by_scrapy.spiders', 'SPIDER_MODULES': ['by_scrapy.spiders']}
+2019-04-15 21:01:17 [scrapy.extensions.telnet] INFO: Telnet Password: e31f9a5ef369d74f
+2019-04-15 21:01:17 [scrapy.middleware] INFO: Enabled extensions:
+['scrapy.extensions.corestats.CoreStats',
+ 'scrapy.extensions.telnet.TelnetConsole',
+ 'scrapy.extensions.logstats.LogStats']
+2019-04-15 21:01:17 [scrapy.middleware] INFO: Enabled downloader middlewares:
+['by_scrapy.middlewares.RandomUserAgent',
+ 'scrapy.downloadermiddlewares.httpauth.HttpAuthMiddleware',
+ 'scrapy.downloadermiddlewares.downloadtimeout.DownloadTimeoutMiddleware',
+ 'scrapy.downloadermiddlewares.defaultheaders.DefaultHeadersMiddleware',
+ 'scrapy.downloadermiddlewares.useragent.UserAgentMiddleware',
+ 'scrapy.downloadermiddlewares.retry.RetryMiddleware',
+ 'scrapy.downloadermiddlewares.redirect.MetaRefreshMiddleware',
+ 'scrapy.downloadermiddlewares.httpcompression.HttpCompressionMiddleware',
+ 'scrapy.downloadermiddlewares.redirect.RedirectMiddleware',
+ 'scrapy.downloadermiddlewares.cookies.CookiesMiddleware',
+ 'scrapy.downloadermiddlewares.httpproxy.HttpProxyMiddleware',
+ 'scrapy.downloadermiddlewares.stats.DownloaderStats']
+2019-04-15 21:01:17 [scrapy.middleware] INFO: Enabled spider middlewares:
+['scrapy.spidermiddlewares.httperror.HttpErrorMiddleware',
+ 'scrapy.spidermiddlewares.offsite.OffsiteMiddleware',
+ 'scrapy.spidermiddlewares.referer.RefererMiddleware',
+ 'scrapy.spidermiddlewares.urllength.UrlLengthMiddleware',
+ 'scrapy.spidermiddlewares.depth.DepthMiddleware']
+2019-04-15 21:01:17 [scrapy.middleware] INFO: Enabled item pipelines:
+[]
+2019-04-15 21:01:17 [scrapy.core.engine] INFO: Spider opened
+2019-04-15 21:01:17 [scrapy.extensions.logstats] INFO: Crawled 0 pages (at 0 pages/min), scraped 0 items (at 0 items/min)
+2019-04-15 21:01:17 [scrapy.extensions.telnet] INFO: Telnet console listening on 127.0.0.1:6023
+2019-04-15 21:01:54 [scrapy.utils.log] INFO: Scrapy 1.6.0 started (bot: by_scrapy)
+2019-04-15 21:01:54 [scrapy.utils.log] INFO: Versions: lxml 4.2.5.0, libxml2 2.9.5, cssselect 1.0.3, parsel 1.5.1, w3lib 1.20.0, Twisted 18.9.0, Python 3.6.8 (tags/v3.6.8:3c6b436a57, Dec 24 2018, 00:16:47) [MSC v.1916 64 bit (AMD64)], pyOpenSSL 19.0.0 (OpenSSL 1.1.1b  26 Feb 2019), cryptography 2.6.1, Platform Windows-10-10.0.16299-SP0
+2019-04-15 21:01:54 [scrapy.crawler] INFO: Overridden settings: {'BOT_NAME': 'by_scrapy', 'DOWNLOAD_DELAY': 2.5, 'LOG_FILE': 'Douban250.log', 'LOG_LEVEL': 'INFO', 'NEWSPIDER_MODULE': 'by_scrapy.spiders', 'SPIDER_MODULES': ['by_scrapy.spiders']}
+2019-04-15 21:01:54 [scrapy.extensions.telnet] INFO: Telnet Password: 772a23214001548a
+2019-04-15 21:01:54 [scrapy.middleware] INFO: Enabled extensions:
+['scrapy.extensions.corestats.CoreStats',
+ 'scrapy.extensions.telnet.TelnetConsole',
+ 'scrapy.extensions.logstats.LogStats']
+2019-04-15 21:01:54 [scrapy.middleware] INFO: Enabled downloader middlewares:
+['by_scrapy.middlewares.RandomUserAgent',
+ 'scrapy.downloadermiddlewares.httpauth.HttpAuthMiddleware',
+ 'scrapy.downloadermiddlewares.downloadtimeout.DownloadTimeoutMiddleware',
+ 'scrapy.downloadermiddlewares.defaultheaders.DefaultHeadersMiddleware',
+ 'scrapy.downloadermiddlewares.useragent.UserAgentMiddleware',
+ 'scrapy.downloadermiddlewares.retry.RetryMiddleware',
+ 'scrapy.downloadermiddlewares.redirect.MetaRefreshMiddleware',
+ 'scrapy.downloadermiddlewares.httpcompression.HttpCompressionMiddleware',
+ 'scrapy.downloadermiddlewares.redirect.RedirectMiddleware',
+ 'scrapy.downloadermiddlewares.cookies.CookiesMiddleware',
+ 'scrapy.downloadermiddlewares.httpproxy.HttpProxyMiddleware',
+ 'scrapy.downloadermiddlewares.stats.DownloaderStats']
+2019-04-15 21:01:54 [scrapy.middleware] INFO: Enabled spider middlewares:
+['scrapy.spidermiddlewares.httperror.HttpErrorMiddleware',
+ 'scrapy.spidermiddlewares.offsite.OffsiteMiddleware',
+ 'scrapy.spidermiddlewares.referer.RefererMiddleware',
+ 'scrapy.spidermiddlewares.urllength.UrlLengthMiddleware',
+ 'scrapy.spidermiddlewares.depth.DepthMiddleware']
+2019-04-15 21:01:54 [scrapy.middleware] INFO: Enabled item pipelines:
+[]
+2019-04-15 21:01:54 [scrapy.core.engine] INFO: Spider opened
+2019-04-15 21:01:54 [scrapy.extensions.logstats] INFO: Crawled 0 pages (at 0 pages/min), scraped 0 items (at 0 items/min)
+2019-04-15 21:01:54 [scrapy.extensions.telnet] INFO: Telnet console listening on 127.0.0.1:6023
+2019-04-15 21:03:47 [scrapy.utils.log] INFO: Scrapy 1.6.0 started (bot: by_scrapy)
+2019-04-15 21:03:47 [scrapy.utils.log] INFO: Versions: lxml 4.2.5.0, libxml2 2.9.5, cssselect 1.0.3, parsel 1.5.1, w3lib 1.20.0, Twisted 18.9.0, Python 3.6.8 (tags/v3.6.8:3c6b436a57, Dec 24 2018, 00:16:47) [MSC v.1916 64 bit (AMD64)], pyOpenSSL 19.0.0 (OpenSSL 1.1.1b  26 Feb 2019), cryptography 2.6.1, Platform Windows-10-10.0.16299-SP0
+2019-04-15 21:03:47 [scrapy.crawler] INFO: Overridden settings: {'BOT_NAME': 'by_scrapy', 'DOWNLOAD_DELAY': 2.5, 'LOG_FILE': 'Douban250.log', 'LOG_LEVEL': 'INFO', 'NEWSPIDER_MODULE': 'by_scrapy.spiders', 'SPIDER_MODULES': ['by_scrapy.spiders']}
+2019-04-15 21:03:47 [scrapy.extensions.telnet] INFO: Telnet Password: d417d4e6a51217d8
+2019-04-15 21:03:47 [scrapy.middleware] INFO: Enabled extensions:
+['scrapy.extensions.corestats.CoreStats',
+ 'scrapy.extensions.telnet.TelnetConsole',
+ 'scrapy.extensions.logstats.LogStats']
+2019-04-15 21:03:47 [scrapy.middleware] INFO: Enabled downloader middlewares:
+['by_scrapy.middlewares.RandomUserAgent',
+ 'scrapy.downloadermiddlewares.httpauth.HttpAuthMiddleware',
+ 'scrapy.downloadermiddlewares.downloadtimeout.DownloadTimeoutMiddleware',
+ 'scrapy.downloadermiddlewares.defaultheaders.DefaultHeadersMiddleware',
+ 'scrapy.downloadermiddlewares.useragent.UserAgentMiddleware',
+ 'scrapy.downloadermiddlewares.retry.RetryMiddleware',
+ 'scrapy.downloadermiddlewares.redirect.MetaRefreshMiddleware',
+ 'scrapy.downloadermiddlewares.httpcompression.HttpCompressionMiddleware',
+ 'scrapy.downloadermiddlewares.redirect.RedirectMiddleware',
+ 'scrapy.downloadermiddlewares.cookies.CookiesMiddleware',
+ 'scrapy.downloadermiddlewares.httpproxy.HttpProxyMiddleware',
+ 'scrapy.downloadermiddlewares.stats.DownloaderStats']
+2019-04-15 21:03:47 [scrapy.middleware] INFO: Enabled spider middlewares:
+['scrapy.spidermiddlewares.httperror.HttpErrorMiddleware',
+ 'scrapy.spidermiddlewares.offsite.OffsiteMiddleware',
+ 'scrapy.spidermiddlewares.referer.RefererMiddleware',
+ 'scrapy.spidermiddlewares.urllength.UrlLengthMiddleware',
+ 'scrapy.spidermiddlewares.depth.DepthMiddleware']
+2019-04-15 21:03:47 [scrapy.middleware] INFO: Enabled item pipelines:
+[]
+2019-04-15 21:03:47 [scrapy.core.engine] INFO: Spider opened
+2019-04-15 21:03:47 [scrapy.extensions.logstats] INFO: Crawled 0 pages (at 0 pages/min), scraped 0 items (at 0 items/min)
+2019-04-15 21:03:47 [scrapy.extensions.telnet] INFO: Telnet console listening on 127.0.0.1:6023
+2019-04-15 21:04:36 [scrapy.utils.log] INFO: Scrapy 1.6.0 started (bot: by_scrapy)
+2019-04-15 21:04:36 [scrapy.utils.log] INFO: Versions: lxml 4.2.5.0, libxml2 2.9.5, cssselect 1.0.3, parsel 1.5.1, w3lib 1.20.0, Twisted 18.9.0, Python 3.6.8 (tags/v3.6.8:3c6b436a57, Dec 24 2018, 00:16:47) [MSC v.1916 64 bit (AMD64)], pyOpenSSL 19.0.0 (OpenSSL 1.1.1b  26 Feb 2019), cryptography 2.6.1, Platform Windows-10-10.0.16299-SP0
+2019-04-15 21:04:36 [scrapy.crawler] INFO: Overridden settings: {'BOT_NAME': 'by_scrapy', 'DOWNLOAD_DELAY': 2.5, 'LOG_FILE': 'Douban250.log', 'LOG_LEVEL': 'INFO', 'NEWSPIDER_MODULE': 'by_scrapy.spiders', 'SPIDER_MODULES': ['by_scrapy.spiders']}
+2019-04-15 21:04:36 [scrapy.extensions.telnet] INFO: Telnet Password: 10b6c05ebd9be4a9
+2019-04-15 21:04:36 [scrapy.middleware] INFO: Enabled extensions:
+['scrapy.extensions.corestats.CoreStats',
+ 'scrapy.extensions.telnet.TelnetConsole',
+ 'scrapy.extensions.logstats.LogStats']
+2019-04-15 21:04:36 [scrapy.middleware] INFO: Enabled downloader middlewares:
+['by_scrapy.middlewares.RandomUserAgent',
+ 'scrapy.downloadermiddlewares.httpauth.HttpAuthMiddleware',
+ 'scrapy.downloadermiddlewares.downloadtimeout.DownloadTimeoutMiddleware',
+ 'scrapy.downloadermiddlewares.defaultheaders.DefaultHeadersMiddleware',
+ 'scrapy.downloadermiddlewares.useragent.UserAgentMiddleware',
+ 'scrapy.downloadermiddlewares.retry.RetryMiddleware',
+ 'scrapy.downloadermiddlewares.redirect.MetaRefreshMiddleware',
+ 'scrapy.downloadermiddlewares.httpcompression.HttpCompressionMiddleware',
+ 'scrapy.downloadermiddlewares.redirect.RedirectMiddleware',
+ 'scrapy.downloadermiddlewares.cookies.CookiesMiddleware',
+ 'scrapy.downloadermiddlewares.httpproxy.HttpProxyMiddleware',
+ 'scrapy.downloadermiddlewares.stats.DownloaderStats']
+2019-04-15 21:04:36 [scrapy.middleware] INFO: Enabled spider middlewares:
+['scrapy.spidermiddlewares.httperror.HttpErrorMiddleware',
+ 'scrapy.spidermiddlewares.offsite.OffsiteMiddleware',
+ 'scrapy.spidermiddlewares.referer.RefererMiddleware',
+ 'scrapy.spidermiddlewares.urllength.UrlLengthMiddleware',
+ 'scrapy.spidermiddlewares.depth.DepthMiddleware']
+2019-04-15 21:04:37 [scrapy.middleware] INFO: Enabled item pipelines:
+['by_scrapy.pipelines.Douban250Pipeline']
+2019-04-15 21:04:37 [scrapy.core.engine] INFO: Spider opened
+2019-04-15 21:04:37 [scrapy.extensions.logstats] INFO: Crawled 0 pages (at 0 pages/min), scraped 0 items (at 0 items/min)
+2019-04-15 21:04:37 [scrapy.extensions.telnet] INFO: Telnet console listening on 127.0.0.1:6023
+2019-04-15 21:05:37 [scrapy.extensions.logstats] INFO: Crawled 20 pages (at 20 pages/min), scraped 19 items (at 19 items/min)
+2019-04-15 21:31:35 [scrapy.utils.log] INFO: Scrapy 1.6.0 started (bot: by_scrapy)
+2019-04-15 21:31:35 [scrapy.utils.log] INFO: Versions: lxml 4.2.5.0, libxml2 2.9.5, cssselect 1.0.3, parsel 1.5.1, w3lib 1.20.0, Twisted 18.9.0, Python 3.6.8 (tags/v3.6.8:3c6b436a57, Dec 24 2018, 00:16:47) [MSC v.1916 64 bit (AMD64)], pyOpenSSL 19.0.0 (OpenSSL 1.1.1b  26 Feb 2019), cryptography 2.6.1, Platform Windows-10-10.0.16299-SP0
+2019-04-15 21:31:35 [scrapy.crawler] INFO: Overridden settings: {'BOT_NAME': 'by_scrapy', 'DOWNLOAD_DELAY': 2.5, 'LOG_FILE': 'Douban250.log', 'LOG_LEVEL': 'INFO', 'NEWSPIDER_MODULE': 'by_scrapy.spiders', 'SPIDER_MODULES': ['by_scrapy.spiders']}
+2019-04-15 21:31:35 [scrapy.extensions.telnet] INFO: Telnet Password: caceb5c3f2c0cc99
+2019-04-15 21:31:35 [scrapy.middleware] INFO: Enabled extensions:
+['scrapy.extensions.corestats.CoreStats',
+ 'scrapy.extensions.telnet.TelnetConsole',
+ 'scrapy.extensions.logstats.LogStats']
+2019-04-15 21:31:35 [scrapy.middleware] INFO: Enabled downloader middlewares:
+['by_scrapy.middlewares.RandomUserAgent',
+ 'scrapy.downloadermiddlewares.httpauth.HttpAuthMiddleware',
+ 'scrapy.downloadermiddlewares.downloadtimeout.DownloadTimeoutMiddleware',
+ 'scrapy.downloadermiddlewares.defaultheaders.DefaultHeadersMiddleware',
+ 'scrapy.downloadermiddlewares.useragent.UserAgentMiddleware',
+ 'scrapy.downloadermiddlewares.retry.RetryMiddleware',
+ 'scrapy.downloadermiddlewares.redirect.MetaRefreshMiddleware',
+ 'scrapy.downloadermiddlewares.httpcompression.HttpCompressionMiddleware',
+ 'scrapy.downloadermiddlewares.redirect.RedirectMiddleware',
+ 'scrapy.downloadermiddlewares.cookies.CookiesMiddleware',
+ 'scrapy.downloadermiddlewares.httpproxy.HttpProxyMiddleware',
+ 'scrapy.downloadermiddlewares.stats.DownloaderStats']
+2019-04-15 21:31:35 [scrapy.middleware] INFO: Enabled spider middlewares:
+['scrapy.spidermiddlewares.httperror.HttpErrorMiddleware',
+ 'scrapy.spidermiddlewares.offsite.OffsiteMiddleware',
+ 'scrapy.spidermiddlewares.referer.RefererMiddleware',
+ 'scrapy.spidermiddlewares.urllength.UrlLengthMiddleware',
+ 'scrapy.spidermiddlewares.depth.DepthMiddleware']
+2019-04-15 21:31:35 [scrapy.middleware] INFO: Enabled item pipelines:
+['by_scrapy.pipelines.Douban250Pipeline']
+2019-04-15 21:31:35 [scrapy.core.engine] INFO: Spider opened
+2019-04-15 21:31:35 [scrapy.extensions.logstats] INFO: Crawled 0 pages (at 0 pages/min), scraped 0 items (at 0 items/min)
+2019-04-15 21:31:35 [scrapy.extensions.telnet] INFO: Telnet console listening on 127.0.0.1:6023
+2019-04-15 21:31:35 [scrapy.core.scraper] ERROR: Spider error processing <GET https://movie.douban.com/top250> (referer: None)
+Traceback (most recent call last):
+  File "D:\program\program_essential\Python36\virtualenv\spider_env\lib\site-packages\parsel\selector.py", line 238, in xpath
+    **kwargs)
+  File "src\lxml\etree.pyx", line 1577, in lxml.etree._Element.xpath
+  File "src\lxml\xpath.pxi", line 307, in lxml.etree.XPathElementEvaluator.__call__
+  File "src\lxml\xpath.pxi", line 227, in lxml.etree._XPathEvaluatorBase._handle_result
+lxml.etree.XPathEvalError: Invalid expression
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\program\program_essential\Python36\virtualenv\spider_env\lib\site-packages\scrapy\utils\defer.py", line 102, in iter_errback
+    yield next(it)
+  File "D:\program\program_essential\Python36\virtualenv\spider_env\lib\site-packages\scrapy\spidermiddlewares\offsite.py", line 29, in process_spider_output
+    for x in result:
+  File "D:\program\program_essential\Python36\virtualenv\spider_env\lib\site-packages\scrapy\spidermiddlewares\referer.py", line 339, in <genexpr>
+    return (_set_referer(r) for r in result or ())
+  File "D:\program\program_essential\Python36\virtualenv\spider_env\lib\site-packages\scrapy\spidermiddlewares\urllength.py", line 37, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "D:\program\program_essential\Python36\virtualenv\spider_env\lib\site-packages\scrapy\spidermiddlewares\depth.py", line 58, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "C:\Users\CRAB\Desktop\MY\by_scrapy\by_scrapy\spiders\douban250.py", line 20, in parse
+    item['title'] = each.xpath('string(.//a').extract()[0].strip()
+  File "D:\program\program_essential\Python36\virtualenv\spider_env\lib\site-packages\parsel\selector.py", line 242, in xpath
+    six.reraise(ValueError, ValueError(msg), sys.exc_info()[2])
+  File "D:\program\program_essential\Python36\virtualenv\spider_env\lib\site-packages\six.py", line 692, in reraise
+    raise value.with_traceback(tb)
+  File "D:\program\program_essential\Python36\virtualenv\spider_env\lib\site-packages\parsel\selector.py", line 238, in xpath
+    **kwargs)
+  File "src\lxml\etree.pyx", line 1577, in lxml.etree._Element.xpath
+  File "src\lxml\xpath.pxi", line 307, in lxml.etree.XPathElementEvaluator.__call__
+  File "src\lxml\xpath.pxi", line 227, in lxml.etree._XPathEvaluatorBase._handle_result
+ValueError: XPath error: Invalid expression in string(.//a
+2019-04-15 21:31:35 [scrapy.core.engine] INFO: Closing spider (finished)
+2019-04-15 21:31:35 [scrapy.statscollectors] INFO: Dumping Scrapy stats:
+{'downloader/request_bytes': 278,
+ 'downloader/request_count': 1,
+ 'downloader/request_method_count/GET': 1,
+ 'downloader/response_bytes': 12922,
+ 'downloader/response_count': 1,
+ 'downloader/response_status_count/200': 1,
+ 'finish_reason': 'finished',
+ 'finish_time': datetime.datetime(2019, 4, 15, 13, 31, 35, 860303),
+ 'log_count/ERROR': 1,
+ 'log_count/INFO': 9,
+ 'response_received_count': 1,
+ 'scheduler/dequeued': 1,
+ 'scheduler/dequeued/memory': 1,
+ 'scheduler/enqueued': 1,
+ 'scheduler/enqueued/memory': 1,
+ 'spider_exceptions/ValueError': 1,
+ 'start_time': datetime.datetime(2019, 4, 15, 13, 31, 35, 402587)}
+2019-04-15 21:31:35 [scrapy.core.engine] INFO: Spider closed (finished)
+2019-04-15 21:39:17 [scrapy.utils.log] INFO: Scrapy 1.6.0 started (bot: by_scrapy)
+2019-04-15 21:39:17 [scrapy.utils.log] INFO: Versions: lxml 4.2.5.0, libxml2 2.9.5, cssselect 1.0.3, parsel 1.5.1, w3lib 1.20.0, Twisted 18.9.0, Python 3.6.8 (tags/v3.6.8:3c6b436a57, Dec 24 2018, 00:16:47) [MSC v.1916 64 bit (AMD64)], pyOpenSSL 19.0.0 (OpenSSL 1.1.1b  26 Feb 2019), cryptography 2.6.1, Platform Windows-10-10.0.16299-SP0
+2019-04-15 21:39:17 [scrapy.crawler] INFO: Overridden settings: {'BOT_NAME': 'by_scrapy', 'DOWNLOAD_DELAY': 2.5, 'LOG_FILE': 'Douban250.log', 'LOG_LEVEL': 'INFO', 'NEWSPIDER_MODULE': 'by_scrapy.spiders', 'SPIDER_MODULES': ['by_scrapy.spiders']}
+2019-04-15 21:39:17 [scrapy.extensions.telnet] INFO: Telnet Password: 02d8d065ae6a8bc8
+2019-04-15 21:39:17 [scrapy.middleware] INFO: Enabled extensions:
+['scrapy.extensions.corestats.CoreStats',
+ 'scrapy.extensions.telnet.TelnetConsole',
+ 'scrapy.extensions.logstats.LogStats']
+2019-04-15 21:39:17 [scrapy.middleware] INFO: Enabled downloader middlewares:
+['by_scrapy.middlewares.RandomUserAgent',
+ 'scrapy.downloadermiddlewares.httpauth.HttpAuthMiddleware',
+ 'scrapy.downloadermiddlewares.downloadtimeout.DownloadTimeoutMiddleware',
+ 'scrapy.downloadermiddlewares.defaultheaders.DefaultHeadersMiddleware',
+ 'scrapy.downloadermiddlewares.useragent.UserAgentMiddleware',
+ 'scrapy.downloadermiddlewares.retry.RetryMiddleware',
+ 'scrapy.downloadermiddlewares.redirect.MetaRefreshMiddleware',
+ 'scrapy.downloadermiddlewares.httpcompression.HttpCompressionMiddleware',
+ 'scrapy.downloadermiddlewares.redirect.RedirectMiddleware',
+ 'scrapy.downloadermiddlewares.cookies.CookiesMiddleware',
+ 'scrapy.downloadermiddlewares.httpproxy.HttpProxyMiddleware',
+ 'scrapy.downloadermiddlewares.stats.DownloaderStats']
+2019-04-15 21:39:17 [scrapy.middleware] INFO: Enabled spider middlewares:
+['scrapy.spidermiddlewares.httperror.HttpErrorMiddleware',
+ 'scrapy.spidermiddlewares.offsite.OffsiteMiddleware',
+ 'scrapy.spidermiddlewares.referer.RefererMiddleware',
+ 'scrapy.spidermiddlewares.urllength.UrlLengthMiddleware',
+ 'scrapy.spidermiddlewares.depth.DepthMiddleware']
+2019-04-15 21:39:17 [scrapy.middleware] INFO: Enabled item pipelines:
+['by_scrapy.pipelines.Douban250Pipeline']
+2019-04-15 21:39:17 [scrapy.core.engine] INFO: Spider opened
+2019-04-15 21:39:17 [scrapy.extensions.logstats] INFO: Crawled 0 pages (at 0 pages/min), scraped 0 items (at 0 items/min)
+2019-04-15 21:39:17 [scrapy.extensions.telnet] INFO: Telnet console listening on 127.0.0.1:6023
+2019-04-15 21:40:59 [scrapy.utils.log] INFO: Scrapy 1.6.0 started (bot: by_scrapy)
+2019-04-15 21:40:59 [scrapy.utils.log] INFO: Versions: lxml 4.2.5.0, libxml2 2.9.5, cssselect 1.0.3, parsel 1.5.1, w3lib 1.20.0, Twisted 18.9.0, Python 3.6.8 (tags/v3.6.8:3c6b436a57, Dec 24 2018, 00:16:47) [MSC v.1916 64 bit (AMD64)], pyOpenSSL 19.0.0 (OpenSSL 1.1.1b  26 Feb 2019), cryptography 2.6.1, Platform Windows-10-10.0.16299-SP0
+2019-04-15 21:40:59 [scrapy.crawler] INFO: Overridden settings: {'BOT_NAME': 'by_scrapy', 'DOWNLOAD_DELAY': 2.5, 'LOG_FILE': 'Douban250.log', 'LOG_LEVEL': 'INFO', 'NEWSPIDER_MODULE': 'by_scrapy.spiders', 'SPIDER_MODULES': ['by_scrapy.spiders']}
+2019-04-15 21:40:59 [scrapy.extensions.telnet] INFO: Telnet Password: 49585d86ff364bf1
+2019-04-15 21:40:59 [scrapy.middleware] INFO: Enabled extensions:
+['scrapy.extensions.corestats.CoreStats',
+ 'scrapy.extensions.telnet.TelnetConsole',
+ 'scrapy.extensions.logstats.LogStats']
+2019-04-15 21:40:59 [scrapy.middleware] INFO: Enabled downloader middlewares:
+['by_scrapy.middlewares.RandomUserAgent',
+ 'scrapy.downloadermiddlewares.httpauth.HttpAuthMiddleware',
+ 'scrapy.downloadermiddlewares.downloadtimeout.DownloadTimeoutMiddleware',
+ 'scrapy.downloadermiddlewares.defaultheaders.DefaultHeadersMiddleware',
+ 'scrapy.downloadermiddlewares.useragent.UserAgentMiddleware',
+ 'scrapy.downloadermiddlewares.retry.RetryMiddleware',
+ 'scrapy.downloadermiddlewares.redirect.MetaRefreshMiddleware',
+ 'scrapy.downloadermiddlewares.httpcompression.HttpCompressionMiddleware',
+ 'scrapy.downloadermiddlewares.redirect.RedirectMiddleware',
+ 'scrapy.downloadermiddlewares.cookies.CookiesMiddleware',
+ 'scrapy.downloadermiddlewares.httpproxy.HttpProxyMiddleware',
+ 'scrapy.downloadermiddlewares.stats.DownloaderStats']
+2019-04-15 21:40:59 [scrapy.middleware] INFO: Enabled spider middlewares:
+['scrapy.spidermiddlewares.httperror.HttpErrorMiddleware',
+ 'scrapy.spidermiddlewares.offsite.OffsiteMiddleware',
+ 'scrapy.spidermiddlewares.referer.RefererMiddleware',
+ 'scrapy.spidermiddlewares.urllength.UrlLengthMiddleware',
+ 'scrapy.spidermiddlewares.depth.DepthMiddleware']
+2019-04-15 21:40:59 [scrapy.middleware] INFO: Enabled item pipelines:
+['by_scrapy.pipelines.Douban250Pipeline']
+2019-04-15 21:40:59 [scrapy.core.engine] INFO: Spider opened
+2019-04-15 21:40:59 [scrapy.extensions.logstats] INFO: Crawled 0 pages (at 0 pages/min), scraped 0 items (at 0 items/min)
+2019-04-15 21:40:59 [scrapy.extensions.telnet] INFO: Telnet console listening on 127.0.0.1:6023
+2019-04-15 21:41:23 [scrapy.utils.log] INFO: Scrapy 1.6.0 started (bot: by_scrapy)
+2019-04-15 21:41:23 [scrapy.utils.log] INFO: Versions: lxml 4.2.5.0, libxml2 2.9.5, cssselect 1.0.3, parsel 1.5.1, w3lib 1.20.0, Twisted 18.9.0, Python 3.6.8 (tags/v3.6.8:3c6b436a57, Dec 24 2018, 00:16:47) [MSC v.1916 64 bit (AMD64)], pyOpenSSL 19.0.0 (OpenSSL 1.1.1b  26 Feb 2019), cryptography 2.6.1, Platform Windows-10-10.0.16299-SP0
+2019-04-15 21:41:23 [scrapy.crawler] INFO: Overridden settings: {'BOT_NAME': 'by_scrapy', 'DOWNLOAD_DELAY': 2.5, 'LOG_FILE': 'Douban250.log', 'LOG_LEVEL': 'INFO', 'NEWSPIDER_MODULE': 'by_scrapy.spiders', 'SPIDER_MODULES': ['by_scrapy.spiders']}
+2019-04-15 21:41:23 [scrapy.extensions.telnet] INFO: Telnet Password: c66c238464651125
+2019-04-15 21:41:23 [scrapy.middleware] INFO: Enabled extensions:
+['scrapy.extensions.corestats.CoreStats',
+ 'scrapy.extensions.telnet.TelnetConsole',
+ 'scrapy.extensions.logstats.LogStats']
+2019-04-15 21:41:23 [scrapy.middleware] INFO: Enabled downloader middlewares:
+['by_scrapy.middlewares.RandomUserAgent',
+ 'scrapy.downloadermiddlewares.httpauth.HttpAuthMiddleware',
+ 'scrapy.downloadermiddlewares.downloadtimeout.DownloadTimeoutMiddleware',
+ 'scrapy.downloadermiddlewares.defaultheaders.DefaultHeadersMiddleware',
+ 'scrapy.downloadermiddlewares.useragent.UserAgentMiddleware',
+ 'scrapy.downloadermiddlewares.retry.RetryMiddleware',
+ 'scrapy.downloadermiddlewares.redirect.MetaRefreshMiddleware',
+ 'scrapy.downloadermiddlewares.httpcompression.HttpCompressionMiddleware',
+ 'scrapy.downloadermiddlewares.redirect.RedirectMiddleware',
+ 'scrapy.downloadermiddlewares.cookies.CookiesMiddleware',
+ 'scrapy.downloadermiddlewares.httpproxy.HttpProxyMiddleware',
+ 'scrapy.downloadermiddlewares.stats.DownloaderStats']
+2019-04-15 21:41:23 [scrapy.middleware] INFO: Enabled spider middlewares:
+['scrapy.spidermiddlewares.httperror.HttpErrorMiddleware',
+ 'scrapy.spidermiddlewares.offsite.OffsiteMiddleware',
+ 'scrapy.spidermiddlewares.referer.RefererMiddleware',
+ 'scrapy.spidermiddlewares.urllength.UrlLengthMiddleware',
+ 'scrapy.spidermiddlewares.depth.DepthMiddleware']
+2019-04-15 21:41:23 [scrapy.middleware] INFO: Enabled item pipelines:
+['by_scrapy.pipelines.Douban250Pipeline']
+2019-04-15 21:41:23 [scrapy.core.engine] INFO: Spider opened
+2019-04-15 21:41:23 [scrapy.extensions.logstats] INFO: Crawled 0 pages (at 0 pages/min), scraped 0 items (at 0 items/min)
+2019-04-15 21:41:23 [scrapy.extensions.telnet] INFO: Telnet console listening on 127.0.0.1:6023
+2019-04-15 21:41:43 [scrapy.core.scraper] ERROR: Spider error processing <GET https://movie.douban.com/top250?start=150&filter=> (referer: https://movie.douban.com/top250?start=125&filter=)
+Traceback (most recent call last):
+  File "D:\program\program_essential\Python36\virtualenv\spider_env\lib\site-packages\scrapy\utils\defer.py", line 102, in iter_errback
+    yield next(it)
+  File "D:\program\program_essential\Python36\virtualenv\spider_env\lib\site-packages\scrapy\spidermiddlewares\offsite.py", line 29, in process_spider_output
+    for x in result:
+  File "D:\program\program_essential\Python36\virtualenv\spider_env\lib\site-packages\scrapy\spidermiddlewares\referer.py", line 339, in <genexpr>
+    return (_set_referer(r) for r in result or ())
+  File "D:\program\program_essential\Python36\virtualenv\spider_env\lib\site-packages\scrapy\spidermiddlewares\urllength.py", line 37, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "D:\program\program_essential\Python36\virtualenv\spider_env\lib\site-packages\scrapy\spidermiddlewares\depth.py", line 58, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "C:\Users\CRAB\Desktop\MY\by_scrapy\by_scrapy\spiders\douban250.py", line 26, in parse
+    item['content'] = each.xpath('.//span[@class="inq"]/text()').extract()[0].strip()
+IndexError: list index out of range
+2019-04-15 21:41:44 [scrapy.core.engine] INFO: Closing spider (finished)
+2019-04-15 21:41:44 [scrapy.statscollectors] INFO: Dumping Scrapy stats:
+{'downloader/request_bytes': 2652,
+ 'downloader/request_count': 7,
+ 'downloader/request_method_count/GET': 7,
+ 'downloader/response_bytes': 89853,
+ 'downloader/response_count': 7,
+ 'downloader/response_status_count/200': 7,
+ 'finish_reason': 'finished',
+ 'finish_time': datetime.datetime(2019, 4, 15, 13, 41, 44, 5680),
+ 'item_scraped_count': 169,
+ 'log_count/ERROR': 1,
+ 'log_count/INFO': 9,
+ 'request_depth_max': 6,
+ 'response_received_count': 7,
+ 'scheduler/dequeued': 7,
+ 'scheduler/dequeued/memory': 7,
+ 'scheduler/enqueued': 7,
+ 'scheduler/enqueued/memory': 7,
+ 'spider_exceptions/IndexError': 1,
+ 'start_time': datetime.datetime(2019, 4, 15, 13, 41, 23, 708966)}
+2019-04-15 21:41:44 [scrapy.core.engine] INFO: Spider closed (finished)
+2019-04-15 21:42:58 [scrapy.utils.log] INFO: Scrapy 1.6.0 started (bot: by_scrapy)
+2019-04-15 21:42:58 [scrapy.utils.log] INFO: Versions: lxml 4.2.5.0, libxml2 2.9.5, cssselect 1.0.3, parsel 1.5.1, w3lib 1.20.0, Twisted 18.9.0, Python 3.6.8 (tags/v3.6.8:3c6b436a57, Dec 24 2018, 00:16:47) [MSC v.1916 64 bit (AMD64)], pyOpenSSL 19.0.0 (OpenSSL 1.1.1b  26 Feb 2019), cryptography 2.6.1, Platform Windows-10-10.0.16299-SP0
+2019-04-15 21:42:58 [scrapy.crawler] INFO: Overridden settings: {'BOT_NAME': 'by_scrapy', 'DOWNLOAD_DELAY': 2.5, 'LOG_FILE': 'Douban250.log', 'LOG_LEVEL': 'INFO', 'NEWSPIDER_MODULE': 'by_scrapy.spiders', 'SPIDER_MODULES': ['by_scrapy.spiders']}
+2019-04-15 21:42:58 [scrapy.extensions.telnet] INFO: Telnet Password: 2797accf1906929a
+2019-04-15 21:42:58 [scrapy.middleware] INFO: Enabled extensions:
+['scrapy.extensions.corestats.CoreStats',
+ 'scrapy.extensions.telnet.TelnetConsole',
+ 'scrapy.extensions.logstats.LogStats']
+2019-04-15 21:42:58 [scrapy.middleware] INFO: Enabled downloader middlewares:
+['by_scrapy.middlewares.RandomUserAgent',
+ 'scrapy.downloadermiddlewares.httpauth.HttpAuthMiddleware',
+ 'scrapy.downloadermiddlewares.downloadtimeout.DownloadTimeoutMiddleware',
+ 'scrapy.downloadermiddlewares.defaultheaders.DefaultHeadersMiddleware',
+ 'scrapy.downloadermiddlewares.useragent.UserAgentMiddleware',
+ 'scrapy.downloadermiddlewares.retry.RetryMiddleware',
+ 'scrapy.downloadermiddlewares.redirect.MetaRefreshMiddleware',
+ 'scrapy.downloadermiddlewares.httpcompression.HttpCompressionMiddleware',
+ 'scrapy.downloadermiddlewares.redirect.RedirectMiddleware',
+ 'scrapy.downloadermiddlewares.cookies.CookiesMiddleware',
+ 'scrapy.downloadermiddlewares.httpproxy.HttpProxyMiddleware',
+ 'scrapy.downloadermiddlewares.stats.DownloaderStats']
+2019-04-15 21:42:58 [scrapy.middleware] INFO: Enabled spider middlewares:
+['scrapy.spidermiddlewares.httperror.HttpErrorMiddleware',
+ 'scrapy.spidermiddlewares.offsite.OffsiteMiddleware',
+ 'scrapy.spidermiddlewares.referer.RefererMiddleware',
+ 'scrapy.spidermiddlewares.urllength.UrlLengthMiddleware',
+ 'scrapy.spidermiddlewares.depth.DepthMiddleware']
+2019-04-15 21:42:58 [scrapy.middleware] INFO: Enabled item pipelines:
+['by_scrapy.pipelines.Douban250Pipeline']
+2019-04-15 21:42:58 [scrapy.core.engine] INFO: Spider opened
+2019-04-15 21:42:58 [scrapy.extensions.logstats] INFO: Crawled 0 pages (at 0 pages/min), scraped 0 items (at 0 items/min)
+2019-04-15 21:42:58 [scrapy.extensions.telnet] INFO: Telnet console listening on 127.0.0.1:6023
+2019-04-15 21:43:22 [scrapy.utils.log] INFO: Scrapy 1.6.0 started (bot: by_scrapy)
+2019-04-15 21:43:22 [scrapy.utils.log] INFO: Versions: lxml 4.2.5.0, libxml2 2.9.5, cssselect 1.0.3, parsel 1.5.1, w3lib 1.20.0, Twisted 18.9.0, Python 3.6.8 (tags/v3.6.8:3c6b436a57, Dec 24 2018, 00:16:47) [MSC v.1916 64 bit (AMD64)], pyOpenSSL 19.0.0 (OpenSSL 1.1.1b  26 Feb 2019), cryptography 2.6.1, Platform Windows-10-10.0.16299-SP0
+2019-04-15 21:43:22 [scrapy.crawler] INFO: Overridden settings: {'BOT_NAME': 'by_scrapy', 'DOWNLOAD_DELAY': 2.5, 'LOG_FILE': 'Douban250.log', 'LOG_LEVEL': 'INFO', 'NEWSPIDER_MODULE': 'by_scrapy.spiders', 'SPIDER_MODULES': ['by_scrapy.spiders']}
+2019-04-15 21:43:22 [scrapy.extensions.telnet] INFO: Telnet Password: b3cb5971ced1659c
+2019-04-15 21:43:22 [scrapy.middleware] INFO: Enabled extensions:
+['scrapy.extensions.corestats.CoreStats',
+ 'scrapy.extensions.telnet.TelnetConsole',
+ 'scrapy.extensions.logstats.LogStats']
+2019-04-15 21:43:22 [scrapy.middleware] INFO: Enabled downloader middlewares:
+['by_scrapy.middlewares.RandomUserAgent',
+ 'scrapy.downloadermiddlewares.httpauth.HttpAuthMiddleware',
+ 'scrapy.downloadermiddlewares.downloadtimeout.DownloadTimeoutMiddleware',
+ 'scrapy.downloadermiddlewares.defaultheaders.DefaultHeadersMiddleware',
+ 'scrapy.downloadermiddlewares.useragent.UserAgentMiddleware',
+ 'scrapy.downloadermiddlewares.retry.RetryMiddleware',
+ 'scrapy.downloadermiddlewares.redirect.MetaRefreshMiddleware',
+ 'scrapy.downloadermiddlewares.httpcompression.HttpCompressionMiddleware',
+ 'scrapy.downloadermiddlewares.redirect.RedirectMiddleware',
+ 'scrapy.downloadermiddlewares.cookies.CookiesMiddleware',
+ 'scrapy.downloadermiddlewares.httpproxy.HttpProxyMiddleware',
+ 'scrapy.downloadermiddlewares.stats.DownloaderStats']
+2019-04-15 21:43:22 [scrapy.middleware] INFO: Enabled spider middlewares:
+['scrapy.spidermiddlewares.httperror.HttpErrorMiddleware',
+ 'scrapy.spidermiddlewares.offsite.OffsiteMiddleware',
+ 'scrapy.spidermiddlewares.referer.RefererMiddleware',
+ 'scrapy.spidermiddlewares.urllength.UrlLengthMiddleware',
+ 'scrapy.spidermiddlewares.depth.DepthMiddleware']
+2019-04-15 21:43:22 [scrapy.middleware] INFO: Enabled item pipelines:
+['by_scrapy.pipelines.Douban250Pipeline']
+2019-04-15 21:43:22 [scrapy.core.engine] INFO: Spider opened
+2019-04-15 21:43:22 [scrapy.extensions.logstats] INFO: Crawled 0 pages (at 0 pages/min), scraped 0 items (at 0 items/min)
+2019-04-15 21:43:22 [scrapy.extensions.telnet] INFO: Telnet console listening on 127.0.0.1:6023
+2019-04-15 21:43:55 [scrapy.utils.log] INFO: Scrapy 1.6.0 started (bot: by_scrapy)
+2019-04-15 21:43:55 [scrapy.utils.log] INFO: Versions: lxml 4.2.5.0, libxml2 2.9.5, cssselect 1.0.3, parsel 1.5.1, w3lib 1.20.0, Twisted 18.9.0, Python 3.6.8 (tags/v3.6.8:3c6b436a57, Dec 24 2018, 00:16:47) [MSC v.1916 64 bit (AMD64)], pyOpenSSL 19.0.0 (OpenSSL 1.1.1b  26 Feb 2019), cryptography 2.6.1, Platform Windows-10-10.0.16299-SP0
+2019-04-15 21:43:55 [scrapy.crawler] INFO: Overridden settings: {'BOT_NAME': 'by_scrapy', 'DOWNLOAD_DELAY': 2.5, 'LOG_FILE': 'Douban250.log', 'LOG_LEVEL': 'INFO', 'NEWSPIDER_MODULE': 'by_scrapy.spiders', 'SPIDER_MODULES': ['by_scrapy.spiders']}
+2019-04-15 21:43:55 [scrapy.extensions.telnet] INFO: Telnet Password: a5d92bb3013a6f26
+2019-04-15 21:43:55 [scrapy.middleware] INFO: Enabled extensions:
+['scrapy.extensions.corestats.CoreStats',
+ 'scrapy.extensions.telnet.TelnetConsole',
+ 'scrapy.extensions.logstats.LogStats']
+2019-04-15 21:43:55 [scrapy.middleware] INFO: Enabled downloader middlewares:
+['by_scrapy.middlewares.RandomUserAgent',
+ 'scrapy.downloadermiddlewares.httpauth.HttpAuthMiddleware',
+ 'scrapy.downloadermiddlewares.downloadtimeout.DownloadTimeoutMiddleware',
+ 'scrapy.downloadermiddlewares.defaultheaders.DefaultHeadersMiddleware',
+ 'scrapy.downloadermiddlewares.useragent.UserAgentMiddleware',
+ 'scrapy.downloadermiddlewares.retry.RetryMiddleware',
+ 'scrapy.downloadermiddlewares.redirect.MetaRefreshMiddleware',
+ 'scrapy.downloadermiddlewares.httpcompression.HttpCompressionMiddleware',
+ 'scrapy.downloadermiddlewares.redirect.RedirectMiddleware',
+ 'scrapy.downloadermiddlewares.cookies.CookiesMiddleware',
+ 'scrapy.downloadermiddlewares.httpproxy.HttpProxyMiddleware',
+ 'scrapy.downloadermiddlewares.stats.DownloaderStats']
+2019-04-15 21:43:55 [scrapy.middleware] INFO: Enabled spider middlewares:
+['scrapy.spidermiddlewares.httperror.HttpErrorMiddleware',
+ 'scrapy.spidermiddlewares.offsite.OffsiteMiddleware',
+ 'scrapy.spidermiddlewares.referer.RefererMiddleware',
+ 'scrapy.spidermiddlewares.urllength.UrlLengthMiddleware',
+ 'scrapy.spidermiddlewares.depth.DepthMiddleware']
+2019-04-15 21:43:55 [scrapy.middleware] INFO: Enabled item pipelines:
+['by_scrapy.pipelines.Douban250Pipeline']
+2019-04-15 21:43:55 [scrapy.core.engine] INFO: Spider opened
+2019-04-15 21:43:55 [scrapy.extensions.logstats] INFO: Crawled 0 pages (at 0 pages/min), scraped 0 items (at 0 items/min)
+2019-04-15 21:43:55 [scrapy.extensions.telnet] INFO: Telnet console listening on 127.0.0.1:6023
+2019-04-15 21:44:15 [scrapy.utils.log] INFO: Scrapy 1.6.0 started (bot: by_scrapy)
+2019-04-15 21:44:15 [scrapy.utils.log] INFO: Versions: lxml 4.2.5.0, libxml2 2.9.5, cssselect 1.0.3, parsel 1.5.1, w3lib 1.20.0, Twisted 18.9.0, Python 3.6.8 (tags/v3.6.8:3c6b436a57, Dec 24 2018, 00:16:47) [MSC v.1916 64 bit (AMD64)], pyOpenSSL 19.0.0 (OpenSSL 1.1.1b  26 Feb 2019), cryptography 2.6.1, Platform Windows-10-10.0.16299-SP0
+2019-04-15 21:44:15 [scrapy.crawler] INFO: Overridden settings: {'BOT_NAME': 'by_scrapy', 'DOWNLOAD_DELAY': 2.5, 'LOG_FILE': 'Douban250.log', 'LOG_LEVEL': 'INFO', 'NEWSPIDER_MODULE': 'by_scrapy.spiders', 'SPIDER_MODULES': ['by_scrapy.spiders']}
+2019-04-15 21:44:15 [scrapy.extensions.telnet] INFO: Telnet Password: 2abcbc9b1dcf66f3
+2019-04-15 21:44:15 [scrapy.middleware] INFO: Enabled extensions:
+['scrapy.extensions.corestats.CoreStats',
+ 'scrapy.extensions.telnet.TelnetConsole',
+ 'scrapy.extensions.logstats.LogStats']
+2019-04-15 21:44:15 [scrapy.middleware] INFO: Enabled downloader middlewares:
+['by_scrapy.middlewares.RandomUserAgent',
+ 'scrapy.downloadermiddlewares.httpauth.HttpAuthMiddleware',
+ 'scrapy.downloadermiddlewares.downloadtimeout.DownloadTimeoutMiddleware',
+ 'scrapy.downloadermiddlewares.defaultheaders.DefaultHeadersMiddleware',
+ 'scrapy.downloadermiddlewares.useragent.UserAgentMiddleware',
+ 'scrapy.downloadermiddlewares.retry.RetryMiddleware',
+ 'scrapy.downloadermiddlewares.redirect.MetaRefreshMiddleware',
+ 'scrapy.downloadermiddlewares.httpcompression.HttpCompressionMiddleware',
+ 'scrapy.downloadermiddlewares.redirect.RedirectMiddleware',
+ 'scrapy.downloadermiddlewares.cookies.CookiesMiddleware',
+ 'scrapy.downloadermiddlewares.httpproxy.HttpProxyMiddleware',
+ 'scrapy.downloadermiddlewares.stats.DownloaderStats']
+2019-04-15 21:44:15 [scrapy.middleware] INFO: Enabled spider middlewares:
+['scrapy.spidermiddlewares.httperror.HttpErrorMiddleware',
+ 'scrapy.spidermiddlewares.offsite.OffsiteMiddleware',
+ 'scrapy.spidermiddlewares.referer.RefererMiddleware',
+ 'scrapy.spidermiddlewares.urllength.UrlLengthMiddleware',
+ 'scrapy.spidermiddlewares.depth.DepthMiddleware']
+2019-04-15 21:44:15 [scrapy.middleware] INFO: Enabled item pipelines:
+['by_scrapy.pipelines.Douban250Pipeline']
+2019-04-15 21:44:15 [scrapy.core.engine] INFO: Spider opened
+2019-04-15 21:44:15 [scrapy.extensions.logstats] INFO: Crawled 0 pages (at 0 pages/min), scraped 0 items (at 0 items/min)
+2019-04-15 21:44:15 [scrapy.extensions.telnet] INFO: Telnet console listening on 127.0.0.1:6023
+2019-04-15 21:44:38 [scrapy.utils.log] INFO: Scrapy 1.6.0 started (bot: by_scrapy)
+2019-04-15 21:44:38 [scrapy.utils.log] INFO: Versions: lxml 4.2.5.0, libxml2 2.9.5, cssselect 1.0.3, parsel 1.5.1, w3lib 1.20.0, Twisted 18.9.0, Python 3.6.8 (tags/v3.6.8:3c6b436a57, Dec 24 2018, 00:16:47) [MSC v.1916 64 bit (AMD64)], pyOpenSSL 19.0.0 (OpenSSL 1.1.1b  26 Feb 2019), cryptography 2.6.1, Platform Windows-10-10.0.16299-SP0
+2019-04-15 21:44:38 [scrapy.crawler] INFO: Overridden settings: {'BOT_NAME': 'by_scrapy', 'DOWNLOAD_DELAY': 2.5, 'LOG_FILE': 'Douban250.log', 'LOG_LEVEL': 'INFO', 'NEWSPIDER_MODULE': 'by_scrapy.spiders', 'SPIDER_MODULES': ['by_scrapy.spiders']}
+2019-04-15 21:44:38 [scrapy.extensions.telnet] INFO: Telnet Password: 26efc5dbd734209c
+2019-04-15 21:44:38 [scrapy.middleware] INFO: Enabled extensions:
+['scrapy.extensions.corestats.CoreStats',
+ 'scrapy.extensions.telnet.TelnetConsole',
+ 'scrapy.extensions.logstats.LogStats']
+2019-04-15 21:44:38 [scrapy.middleware] INFO: Enabled downloader middlewares:
+['by_scrapy.middlewares.RandomUserAgent',
+ 'scrapy.downloadermiddlewares.httpauth.HttpAuthMiddleware',
+ 'scrapy.downloadermiddlewares.downloadtimeout.DownloadTimeoutMiddleware',
+ 'scrapy.downloadermiddlewares.defaultheaders.DefaultHeadersMiddleware',
+ 'scrapy.downloadermiddlewares.useragent.UserAgentMiddleware',
+ 'scrapy.downloadermiddlewares.retry.RetryMiddleware',
+ 'scrapy.downloadermiddlewares.redirect.MetaRefreshMiddleware',
+ 'scrapy.downloadermiddlewares.httpcompression.HttpCompressionMiddleware',
+ 'scrapy.downloadermiddlewares.redirect.RedirectMiddleware',
+ 'scrapy.downloadermiddlewares.cookies.CookiesMiddleware',
+ 'scrapy.downloadermiddlewares.httpproxy.HttpProxyMiddleware',
+ 'scrapy.downloadermiddlewares.stats.DownloaderStats']
+2019-04-15 21:44:38 [scrapy.middleware] INFO: Enabled spider middlewares:
+['scrapy.spidermiddlewares.httperror.HttpErrorMiddleware',
+ 'scrapy.spidermiddlewares.offsite.OffsiteMiddleware',
+ 'scrapy.spidermiddlewares.referer.RefererMiddleware',
+ 'scrapy.spidermiddlewares.urllength.UrlLengthMiddleware',
+ 'scrapy.spidermiddlewares.depth.DepthMiddleware']
+2019-04-15 21:44:38 [scrapy.middleware] INFO: Enabled item pipelines:
+['by_scrapy.pipelines.Douban250Pipeline']
+2019-04-15 21:44:38 [scrapy.core.engine] INFO: Spider opened
+2019-04-15 21:44:38 [scrapy.extensions.logstats] INFO: Crawled 0 pages (at 0 pages/min), scraped 0 items (at 0 items/min)
+2019-04-15 21:44:38 [scrapy.extensions.telnet] INFO: Telnet console listening on 127.0.0.1:6023
+2019-04-15 21:45:37 [scrapy.utils.log] INFO: Scrapy 1.6.0 started (bot: by_scrapy)
+2019-04-15 21:45:37 [scrapy.utils.log] INFO: Versions: lxml 4.2.5.0, libxml2 2.9.5, cssselect 1.0.3, parsel 1.5.1, w3lib 1.20.0, Twisted 18.9.0, Python 3.6.8 (tags/v3.6.8:3c6b436a57, Dec 24 2018, 00:16:47) [MSC v.1916 64 bit (AMD64)], pyOpenSSL 19.0.0 (OpenSSL 1.1.1b  26 Feb 2019), cryptography 2.6.1, Platform Windows-10-10.0.16299-SP0
+2019-04-15 21:45:37 [scrapy.crawler] INFO: Overridden settings: {'BOT_NAME': 'by_scrapy', 'DOWNLOAD_DELAY': 2.5, 'LOG_FILE': 'Douban250.log', 'LOG_LEVEL': 'INFO', 'NEWSPIDER_MODULE': 'by_scrapy.spiders', 'SPIDER_MODULES': ['by_scrapy.spiders']}
+2019-04-15 21:45:37 [scrapy.extensions.telnet] INFO: Telnet Password: 5af4f37cb8e13006
+2019-04-15 21:45:37 [scrapy.middleware] INFO: Enabled extensions:
+['scrapy.extensions.corestats.CoreStats',
+ 'scrapy.extensions.telnet.TelnetConsole',
+ 'scrapy.extensions.logstats.LogStats']
+2019-04-15 21:45:37 [scrapy.middleware] INFO: Enabled downloader middlewares:
+['by_scrapy.middlewares.RandomUserAgent',
+ 'scrapy.downloadermiddlewares.httpauth.HttpAuthMiddleware',
+ 'scrapy.downloadermiddlewares.downloadtimeout.DownloadTimeoutMiddleware',
+ 'scrapy.downloadermiddlewares.defaultheaders.DefaultHeadersMiddleware',
+ 'scrapy.downloadermiddlewares.useragent.UserAgentMiddleware',
+ 'scrapy.downloadermiddlewares.retry.RetryMiddleware',
+ 'scrapy.downloadermiddlewares.redirect.MetaRefreshMiddleware',
+ 'scrapy.downloadermiddlewares.httpcompression.HttpCompressionMiddleware',
+ 'scrapy.downloadermiddlewares.redirect.RedirectMiddleware',
+ 'scrapy.downloadermiddlewares.cookies.CookiesMiddleware',
+ 'scrapy.downloadermiddlewares.httpproxy.HttpProxyMiddleware',
+ 'scrapy.downloadermiddlewares.stats.DownloaderStats']
+2019-04-15 21:45:37 [scrapy.middleware] INFO: Enabled spider middlewares:
+['scrapy.spidermiddlewares.httperror.HttpErrorMiddleware',
+ 'scrapy.spidermiddlewares.offsite.OffsiteMiddleware',
+ 'scrapy.spidermiddlewares.referer.RefererMiddleware',
+ 'scrapy.spidermiddlewares.urllength.UrlLengthMiddleware',
+ 'scrapy.spidermiddlewares.depth.DepthMiddleware']
+2019-04-15 21:45:37 [scrapy.middleware] INFO: Enabled item pipelines:
+['by_scrapy.pipelines.Douban250Pipeline']
+2019-04-15 21:45:37 [scrapy.core.engine] INFO: Spider opened
+2019-04-15 21:45:37 [scrapy.extensions.logstats] INFO: Crawled 0 pages (at 0 pages/min), scraped 0 items (at 0 items/min)
+2019-04-15 21:45:37 [scrapy.extensions.telnet] INFO: Telnet console listening on 127.0.0.1:6023
+2019-04-15 21:46:07 [scrapy.utils.log] INFO: Scrapy 1.6.0 started (bot: by_scrapy)
+2019-04-15 21:46:07 [scrapy.utils.log] INFO: Versions: lxml 4.2.5.0, libxml2 2.9.5, cssselect 1.0.3, parsel 1.5.1, w3lib 1.20.0, Twisted 18.9.0, Python 3.6.8 (tags/v3.6.8:3c6b436a57, Dec 24 2018, 00:16:47) [MSC v.1916 64 bit (AMD64)], pyOpenSSL 19.0.0 (OpenSSL 1.1.1b  26 Feb 2019), cryptography 2.6.1, Platform Windows-10-10.0.16299-SP0
+2019-04-15 21:46:07 [scrapy.crawler] INFO: Overridden settings: {'BOT_NAME': 'by_scrapy', 'DOWNLOAD_DELAY': 2.5, 'LOG_FILE': 'Douban250.log', 'LOG_LEVEL': 'INFO', 'NEWSPIDER_MODULE': 'by_scrapy.spiders', 'SPIDER_MODULES': ['by_scrapy.spiders']}
+2019-04-15 21:46:07 [scrapy.extensions.telnet] INFO: Telnet Password: 6b4531bcf4b726a9
+2019-04-15 21:46:07 [scrapy.middleware] INFO: Enabled extensions:
+['scrapy.extensions.corestats.CoreStats',
+ 'scrapy.extensions.telnet.TelnetConsole',
+ 'scrapy.extensions.logstats.LogStats']
+2019-04-15 21:46:07 [scrapy.middleware] INFO: Enabled downloader middlewares:
+['by_scrapy.middlewares.RandomUserAgent',
+ 'scrapy.downloadermiddlewares.httpauth.HttpAuthMiddleware',
+ 'scrapy.downloadermiddlewares.downloadtimeout.DownloadTimeoutMiddleware',
+ 'scrapy.downloadermiddlewares.defaultheaders.DefaultHeadersMiddleware',
+ 'scrapy.downloadermiddlewares.useragent.UserAgentMiddleware',
+ 'scrapy.downloadermiddlewares.retry.RetryMiddleware',
+ 'scrapy.downloadermiddlewares.redirect.MetaRefreshMiddleware',
+ 'scrapy.downloadermiddlewares.httpcompression.HttpCompressionMiddleware',
+ 'scrapy.downloadermiddlewares.redirect.RedirectMiddleware',
+ 'scrapy.downloadermiddlewares.cookies.CookiesMiddleware',
+ 'scrapy.downloadermiddlewares.httpproxy.HttpProxyMiddleware',
+ 'scrapy.downloadermiddlewares.stats.DownloaderStats']
+2019-04-15 21:46:07 [scrapy.middleware] INFO: Enabled spider middlewares:
+['scrapy.spidermiddlewares.httperror.HttpErrorMiddleware',
+ 'scrapy.spidermiddlewares.offsite.OffsiteMiddleware',
+ 'scrapy.spidermiddlewares.referer.RefererMiddleware',
+ 'scrapy.spidermiddlewares.urllength.UrlLengthMiddleware',
+ 'scrapy.spidermiddlewares.depth.DepthMiddleware']
+2019-04-15 21:46:07 [scrapy.middleware] INFO: Enabled item pipelines:
+['by_scrapy.pipelines.Douban250Pipeline']
+2019-04-15 21:46:07 [scrapy.core.engine] INFO: Spider opened
+2019-04-15 21:46:07 [scrapy.extensions.logstats] INFO: Crawled 0 pages (at 0 pages/min), scraped 0 items (at 0 items/min)
+2019-04-15 21:46:07 [scrapy.extensions.telnet] INFO: Telnet console listening on 127.0.0.1:6023
+2019-04-15 22:14:37 [scrapy.utils.log] INFO: Scrapy 1.6.0 started (bot: by_scrapy)
+2019-04-15 22:14:37 [scrapy.utils.log] INFO: Versions: lxml 4.2.5.0, libxml2 2.9.5, cssselect 1.0.3, parsel 1.5.1, w3lib 1.20.0, Twisted 18.9.0, Python 3.6.8 (tags/v3.6.8:3c6b436a57, Dec 24 2018, 00:16:47) [MSC v.1916 64 bit (AMD64)], pyOpenSSL 19.0.0 (OpenSSL 1.1.1b  26 Feb 2019), cryptography 2.6.1, Platform Windows-10-10.0.16299-SP0
+2019-04-15 22:14:37 [scrapy.crawler] INFO: Overridden settings: {'BOT_NAME': 'by_scrapy', 'DOWNLOAD_DELAY': 2.5, 'LOG_FILE': 'Douban250.log', 'LOG_LEVEL': 'INFO', 'NEWSPIDER_MODULE': 'by_scrapy.spiders', 'SPIDER_MODULES': ['by_scrapy.spiders']}
+2019-04-15 22:14:37 [scrapy.extensions.telnet] INFO: Telnet Password: f0f000855612acd3
+2019-04-15 22:14:37 [scrapy.middleware] INFO: Enabled extensions:
+['scrapy.extensions.corestats.CoreStats',
+ 'scrapy.extensions.telnet.TelnetConsole',
+ 'scrapy.extensions.logstats.LogStats']
+2019-04-15 22:14:38 [scrapy.middleware] INFO: Enabled downloader middlewares:
+['by_scrapy.middlewares.RandomUserAgent',
+ 'scrapy.downloadermiddlewares.httpauth.HttpAuthMiddleware',
+ 'scrapy.downloadermiddlewares.downloadtimeout.DownloadTimeoutMiddleware',
+ 'scrapy.downloadermiddlewares.defaultheaders.DefaultHeadersMiddleware',
+ 'scrapy.downloadermiddlewares.useragent.UserAgentMiddleware',
+ 'scrapy.downloadermiddlewares.retry.RetryMiddleware',
+ 'scrapy.downloadermiddlewares.redirect.MetaRefreshMiddleware',
+ 'scrapy.downloadermiddlewares.httpcompression.HttpCompressionMiddleware',
+ 'scrapy.downloadermiddlewares.redirect.RedirectMiddleware',
+ 'scrapy.downloadermiddlewares.cookies.CookiesMiddleware',
+ 'scrapy.downloadermiddlewares.httpproxy.HttpProxyMiddleware',
+ 'scrapy.downloadermiddlewares.stats.DownloaderStats']
+2019-04-15 22:14:38 [scrapy.middleware] INFO: Enabled spider middlewares:
+['scrapy.spidermiddlewares.httperror.HttpErrorMiddleware',
+ 'scrapy.spidermiddlewares.offsite.OffsiteMiddleware',
+ 'scrapy.spidermiddlewares.referer.RefererMiddleware',
+ 'scrapy.spidermiddlewares.urllength.UrlLengthMiddleware',
+ 'scrapy.spidermiddlewares.depth.DepthMiddleware']
+2019-04-15 22:14:38 [scrapy.middleware] INFO: Enabled item pipelines:
+['by_scrapy.pipelines.Douban250Pipeline']
+2019-04-15 22:14:38 [scrapy.core.engine] INFO: Spider opened
+2019-04-15 22:14:38 [scrapy.extensions.logstats] INFO: Crawled 0 pages (at 0 pages/min), scraped 0 items (at 0 items/min)
+2019-04-15 22:14:38 [scrapy.extensions.telnet] INFO: Telnet console listening on 127.0.0.1:6023
+2019-04-15 22:14:59 [scrapy.core.scraper] ERROR: Spider error processing <GET https://movie.douban.com/top250?start=150&filter=> (referer: https://movie.douban.com/top250?start=125&filter=)
+Traceback (most recent call last):
+  File "D:\program\program_essential\Python36\virtualenv\spider_env\lib\site-packages\scrapy\utils\defer.py", line 102, in iter_errback
+    yield next(it)
+  File "D:\program\program_essential\Python36\virtualenv\spider_env\lib\site-packages\scrapy\spidermiddlewares\offsite.py", line 29, in process_spider_output
+    for x in result:
+  File "D:\program\program_essential\Python36\virtualenv\spider_env\lib\site-packages\scrapy\spidermiddlewares\referer.py", line 339, in <genexpr>
+    return (_set_referer(r) for r in result or ())
+  File "D:\program\program_essential\Python36\virtualenv\spider_env\lib\site-packages\scrapy\spidermiddlewares\urllength.py", line 37, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "D:\program\program_essential\Python36\virtualenv\spider_env\lib\site-packages\scrapy\spidermiddlewares\depth.py", line 58, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "C:\Users\CRAB\Desktop\MY\by_scrapy\by_scrapy\spiders\douban250.py", line 26, in parse
+    item['content'] = each.xpath('.//span[@class="inq"]/text()').extract()[0].strip()
+IndexError: list index out of range
+2019-04-15 22:14:59 [scrapy.core.engine] INFO: Closing spider (finished)
+2019-04-15 22:14:59 [scrapy.statscollectors] INFO: Dumping Scrapy stats:
+{'downloader/request_bytes': 2664,
+ 'downloader/request_count': 7,
+ 'downloader/request_method_count/GET': 7,
+ 'downloader/response_bytes': 89856,
+ 'downloader/response_count': 7,
+ 'downloader/response_status_count/200': 7,
+ 'finish_reason': 'finished',
+ 'finish_time': datetime.datetime(2019, 4, 15, 14, 14, 59, 68310),
+ 'item_scraped_count': 169,
+ 'log_count/ERROR': 1,
+ 'log_count/INFO': 9,
+ 'request_depth_max': 6,
+ 'response_received_count': 7,
+ 'scheduler/dequeued': 7,
+ 'scheduler/dequeued/memory': 7,
+ 'scheduler/enqueued': 7,
+ 'scheduler/enqueued/memory': 7,
+ 'spider_exceptions/IndexError': 1,
+ 'start_time': datetime.datetime(2019, 4, 15, 14, 14, 38, 442436)}
+2019-04-15 22:14:59 [scrapy.core.engine] INFO: Spider closed (finished)
+2019-04-15 22:19:47 [scrapy.utils.log] INFO: Scrapy 1.6.0 started (bot: by_scrapy)
+2019-04-15 22:19:47 [scrapy.utils.log] INFO: Versions: lxml 4.2.5.0, libxml2 2.9.5, cssselect 1.0.3, parsel 1.5.1, w3lib 1.20.0, Twisted 18.9.0, Python 3.6.8 (tags/v3.6.8:3c6b436a57, Dec 24 2018, 00:16:47) [MSC v.1916 64 bit (AMD64)], pyOpenSSL 19.0.0 (OpenSSL 1.1.1b  26 Feb 2019), cryptography 2.6.1, Platform Windows-10-10.0.16299-SP0
+2019-04-15 22:19:47 [scrapy.crawler] INFO: Overridden settings: {'BOT_NAME': 'by_scrapy', 'DOWNLOAD_DELAY': 2.5, 'LOG_FILE': 'Douban250.log', 'LOG_LEVEL': 'INFO', 'NEWSPIDER_MODULE': 'by_scrapy.spiders', 'SPIDER_MODULES': ['by_scrapy.spiders']}
+2019-04-15 22:19:47 [scrapy.extensions.telnet] INFO: Telnet Password: b05db9fd1beacbaf
+2019-04-15 22:19:47 [scrapy.middleware] INFO: Enabled extensions:
+['scrapy.extensions.corestats.CoreStats',
+ 'scrapy.extensions.telnet.TelnetConsole',
+ 'scrapy.extensions.logstats.LogStats']
+2019-04-15 22:19:47 [scrapy.middleware] INFO: Enabled downloader middlewares:
+['by_scrapy.middlewares.RandomUserAgent',
+ 'scrapy.downloadermiddlewares.httpauth.HttpAuthMiddleware',
+ 'scrapy.downloadermiddlewares.downloadtimeout.DownloadTimeoutMiddleware',
+ 'scrapy.downloadermiddlewares.defaultheaders.DefaultHeadersMiddleware',
+ 'scrapy.downloadermiddlewares.useragent.UserAgentMiddleware',
+ 'scrapy.downloadermiddlewares.retry.RetryMiddleware',
+ 'scrapy.downloadermiddlewares.redirect.MetaRefreshMiddleware',
+ 'scrapy.downloadermiddlewares.httpcompression.HttpCompressionMiddleware',
+ 'scrapy.downloadermiddlewares.redirect.RedirectMiddleware',
+ 'scrapy.downloadermiddlewares.cookies.CookiesMiddleware',
+ 'scrapy.downloadermiddlewares.httpproxy.HttpProxyMiddleware',
+ 'scrapy.downloadermiddlewares.stats.DownloaderStats']
+2019-04-15 22:19:47 [scrapy.middleware] INFO: Enabled spider middlewares:
+['scrapy.spidermiddlewares.httperror.HttpErrorMiddleware',
+ 'scrapy.spidermiddlewares.offsite.OffsiteMiddleware',
+ 'scrapy.spidermiddlewares.referer.RefererMiddleware',
+ 'scrapy.spidermiddlewares.urllength.UrlLengthMiddleware',
+ 'scrapy.spidermiddlewares.depth.DepthMiddleware']
+2019-04-15 22:19:47 [scrapy.middleware] INFO: Enabled item pipelines:
+['by_scrapy.pipelines.Douban250Pipeline']
+2019-04-15 22:19:47 [scrapy.core.engine] INFO: Spider opened
+2019-04-15 22:19:47 [scrapy.extensions.logstats] INFO: Crawled 0 pages (at 0 pages/min), scraped 0 items (at 0 items/min)
+2019-04-15 22:19:47 [scrapy.extensions.telnet] INFO: Telnet console listening on 127.0.0.1:6023
+2019-04-15 22:20:23 [scrapy.core.engine] INFO: Closing spider (finished)
+2019-04-15 22:20:23 [scrapy.statscollectors] INFO: Dumping Scrapy stats:
+{'downloader/request_bytes': 4817,
+ 'downloader/request_count': 12,
+ 'downloader/request_method_count/GET': 12,
+ 'downloader/response_bytes': 141883,
+ 'downloader/response_count': 12,
+ 'downloader/response_status_count/200': 12,
+ 'finish_reason': 'finished',
+ 'finish_time': datetime.datetime(2019, 4, 15, 14, 20, 23, 262823),
+ 'item_scraped_count': 250,
+ 'log_count/INFO': 9,
+ 'request_depth_max': 11,
+ 'response_received_count': 12,
+ 'scheduler/dequeued': 12,
+ 'scheduler/dequeued/memory': 12,
+ 'scheduler/enqueued': 12,
+ 'scheduler/enqueued/memory': 12,
+ 'start_time': datetime.datetime(2019, 4, 15, 14, 19, 47, 282097)}
+2019-04-15 22:20:23 [scrapy.core.engine] INFO: Spider closed (finished)
+2019-04-15 22:23:36 [scrapy.utils.log] INFO: Scrapy 1.6.0 started (bot: by_scrapy)
+2019-04-15 22:23:36 [scrapy.utils.log] INFO: Versions: lxml 4.2.5.0, libxml2 2.9.5, cssselect 1.0.3, parsel 1.5.1, w3lib 1.20.0, Twisted 18.9.0, Python 3.6.8 (tags/v3.6.8:3c6b436a57, Dec 24 2018, 00:16:47) [MSC v.1916 64 bit (AMD64)], pyOpenSSL 19.0.0 (OpenSSL 1.1.1b  26 Feb 2019), cryptography 2.6.1, Platform Windows-10-10.0.16299-SP0
+2019-04-15 22:23:36 [scrapy.crawler] INFO: Overridden settings: {'BOT_NAME': 'by_scrapy', 'DOWNLOAD_DELAY': 2.5, 'LOG_FILE': 'Douban250.log', 'LOG_LEVEL': 'INFO', 'NEWSPIDER_MODULE': 'by_scrapy.spiders', 'SPIDER_MODULES': ['by_scrapy.spiders']}
+2019-04-15 22:23:36 [scrapy.extensions.telnet] INFO: Telnet Password: f08adb78a42275e9
+2019-04-15 22:23:36 [scrapy.middleware] INFO: Enabled extensions:
+['scrapy.extensions.corestats.CoreStats',
+ 'scrapy.extensions.telnet.TelnetConsole',
+ 'scrapy.extensions.logstats.LogStats']
+2019-04-15 22:23:36 [scrapy.middleware] INFO: Enabled downloader middlewares:
+['by_scrapy.middlewares.RandomUserAgent',
+ 'scrapy.downloadermiddlewares.httpauth.HttpAuthMiddleware',
+ 'scrapy.downloadermiddlewares.downloadtimeout.DownloadTimeoutMiddleware',
+ 'scrapy.downloadermiddlewares.defaultheaders.DefaultHeadersMiddleware',
+ 'scrapy.downloadermiddlewares.useragent.UserAgentMiddleware',
+ 'scrapy.downloadermiddlewares.retry.RetryMiddleware',
+ 'scrapy.downloadermiddlewares.redirect.MetaRefreshMiddleware',
+ 'scrapy.downloadermiddlewares.httpcompression.HttpCompressionMiddleware',
+ 'scrapy.downloadermiddlewares.redirect.RedirectMiddleware',
+ 'scrapy.downloadermiddlewares.cookies.CookiesMiddleware',
+ 'scrapy.downloadermiddlewares.httpproxy.HttpProxyMiddleware',
+ 'scrapy.downloadermiddlewares.stats.DownloaderStats']
+2019-04-15 22:23:36 [scrapy.middleware] INFO: Enabled spider middlewares:
+['scrapy.spidermiddlewares.httperror.HttpErrorMiddleware',
+ 'scrapy.spidermiddlewares.offsite.OffsiteMiddleware',
+ 'scrapy.spidermiddlewares.referer.RefererMiddleware',
+ 'scrapy.spidermiddlewares.urllength.UrlLengthMiddleware',
+ 'scrapy.spidermiddlewares.depth.DepthMiddleware']
+2019-04-15 22:23:36 [scrapy.middleware] INFO: Enabled item pipelines:
+['by_scrapy.pipelines.Douban250Pipeline']
+2019-04-15 22:23:36 [scrapy.core.engine] INFO: Spider opened
+2019-04-15 22:23:36 [scrapy.extensions.logstats] INFO: Crawled 0 pages (at 0 pages/min), scraped 0 items (at 0 items/min)
+2019-04-15 22:23:36 [scrapy.extensions.telnet] INFO: Telnet console listening on 127.0.0.1:6023
+2019-04-15 22:24:10 [scrapy.core.engine] INFO: Closing spider (finished)
+2019-04-15 22:24:10 [scrapy.statscollectors] INFO: Dumping Scrapy stats:
+{'downloader/request_bytes': 4877,
+ 'downloader/request_count': 12,
+ 'downloader/request_method_count/GET': 12,
+ 'downloader/response_bytes': 141934,
+ 'downloader/response_count': 12,
+ 'downloader/response_status_count/200': 12,
+ 'finish_reason': 'finished',
+ 'finish_time': datetime.datetime(2019, 4, 15, 14, 24, 10, 38151),
+ 'item_scraped_count': 250,
+ 'log_count/INFO': 9,
+ 'request_depth_max': 11,
+ 'response_received_count': 12,
+ 'scheduler/dequeued': 12,
+ 'scheduler/dequeued/memory': 12,
+ 'scheduler/enqueued': 12,
+ 'scheduler/enqueued/memory': 12,
+ 'start_time': datetime.datetime(2019, 4, 15, 14, 23, 36, 907007)}
+2019-04-15 22:24:10 [scrapy.core.engine] INFO: Spider closed (finished)

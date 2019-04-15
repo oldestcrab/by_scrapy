@@ -5,13 +5,13 @@
     "version": "0.2.0",
     "configurations": [
         {
-            "name": "dongguan",
+            "name": "douban250",
             "type": "python",
             "request": "launch",
             "module": "scrapy",
             "args": [
                 "crawl",
-                "dongguan"
+                "douban250"
             ],
         },
         {

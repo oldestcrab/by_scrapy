@@ -28,3 +28,9 @@ class DongGuanItem(scrapy.Item):
     number = scrapy.Field()
     content = scrapy.Field()
     url = scrapy.Field()
+
+class Douban250Item(scrapy.Item):
+    title = scrapy.Field()
+    score = scrapy.Field()
+    content = scrapy.Field()
+    info = scrapy.Field()
