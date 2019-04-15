@@ -1,0 +1,61 @@
+2019-04-15 10:30:17 [scrapy.utils.log] INFO: Scrapy 1.6.0 started (bot: by_scrapy)
+2019-04-15 10:30:17 [scrapy.utils.log] INFO: Versions: lxml 4.2.5.0, libxml2 2.9.5, cssselect 1.0.3, parsel 1.5.1, w3lib 1.20.0, Twisted 18.9.0, Python 3.6.8 (tags/v3.6.8:3c6b436a57, Dec 24 2018, 00:16:47) [MSC v.1916 64 bit (AMD64)], pyOpenSSL 19.0.0 (OpenSSL 1.1.1b  26 Feb 2019), cryptography 2.6.1, Platform Windows-10-10.0.17134-SP0
+2019-04-15 10:30:17 [scrapy.crawler] INFO: Overridden settings: {'BOT_NAME': 'by_scrapy', 'LOG_FILE': 'DongGuanSpider.log', 'LOG_LEVEL': 'INFO', 'NEWSPIDER_MODULE': 'by_scrapy.spiders', 'SPIDER_MODULES': ['by_scrapy.spiders']}
+2019-04-15 10:30:17 [scrapy.extensions.telnet] INFO: Telnet Password: bcde9b65bb884c75
+2019-04-15 10:30:17 [scrapy.middleware] INFO: Enabled extensions:
+['scrapy.extensions.corestats.CoreStats',
+ 'scrapy.extensions.telnet.TelnetConsole',
+ 'scrapy.extensions.logstats.LogStats']
+2019-04-15 10:30:17 [scrapy.middleware] INFO: Enabled downloader middlewares:
+['scrapy.downloadermiddlewares.httpauth.HttpAuthMiddleware',
+ 'scrapy.downloadermiddlewares.downloadtimeout.DownloadTimeoutMiddleware',
+ 'scrapy.downloadermiddlewares.defaultheaders.DefaultHeadersMiddleware',
+ 'scrapy.downloadermiddlewares.useragent.UserAgentMiddleware',
+ 'scrapy.downloadermiddlewares.retry.RetryMiddleware',
+ 'scrapy.downloadermiddlewares.redirect.MetaRefreshMiddleware',
+ 'scrapy.downloadermiddlewares.httpcompression.HttpCompressionMiddleware',
+ 'scrapy.downloadermiddlewares.redirect.RedirectMiddleware',
+ 'scrapy.downloadermiddlewares.cookies.CookiesMiddleware',
+ 'scrapy.downloadermiddlewares.httpproxy.HttpProxyMiddleware',
+ 'scrapy.downloadermiddlewares.stats.DownloaderStats']
+2019-04-15 10:30:17 [scrapy.middleware] INFO: Enabled spider middlewares:
+['scrapy.spidermiddlewares.httperror.HttpErrorMiddleware',
+ 'scrapy.spidermiddlewares.offsite.OffsiteMiddleware',
+ 'scrapy.spidermiddlewares.referer.RefererMiddleware',
+ 'scrapy.spidermiddlewares.urllength.UrlLengthMiddleware',
+ 'scrapy.spidermiddlewares.depth.DepthMiddleware']
+2019-04-15 10:30:17 [scrapy.middleware] INFO: Enabled item pipelines:
+['by_scrapy.pipelines.DongGuanPipeline']
+2019-04-15 10:30:17 [scrapy.core.engine] INFO: Spider opened
+2019-04-15 10:30:17 [scrapy.extensions.logstats] INFO: Crawled 0 pages (at 0 pages/min), scraped 0 items (at 0 items/min)
+2019-04-15 10:30:17 [scrapy.extensions.telnet] INFO: Telnet console listening on 127.0.0.1:6023
+2019-04-15 10:31:17 [scrapy.extensions.logstats] INFO: Crawled 374 pages (at 374 pages/min), scraped 342 items (at 342 items/min)
+2019-04-15 10:32:17 [scrapy.extensions.logstats] INFO: Crawled 676 pages (at 302 pages/min), scraped 611 items (at 269 items/min)
+2019-04-15 10:32:39 [scrapy.spidermiddlewares.httperror] INFO: Ignoring response <403 http://wz.sun0769.com/index.php/question/questionType?type=4&page=102750>: HTTP status code is not handled or not allowed
+2019-04-15 10:33:17 [scrapy.extensions.logstats] INFO: Crawled 961 pages (at 285 pages/min), scraped 860 items (at 249 items/min)
+2019-04-15 10:34:17 [scrapy.extensions.logstats] INFO: Crawled 1213 pages (at 252 pages/min), scraped 1077 items (at 217 items/min)
+2019-04-15 10:35:17 [scrapy.extensions.logstats] INFO: Crawled 1477 pages (at 264 pages/min), scraped 1305 items (at 228 items/min)
+2019-04-15 10:36:17 [scrapy.extensions.logstats] INFO: Crawled 1670 pages (at 193 pages/min), scraped 1468 items (at 163 items/min)
+2019-04-15 10:37:17 [scrapy.extensions.logstats] INFO: Crawled 1920 pages (at 250 pages/min), scraped 1683 items (at 215 items/min)
+2019-04-15 10:38:17 [scrapy.extensions.logstats] INFO: Crawled 2150 pages (at 230 pages/min), scraped 1877 items (at 194 items/min)
+2019-04-15 10:39:17 [scrapy.extensions.logstats] INFO: Crawled 2386 pages (at 236 pages/min), scraped 2078 items (at 201 items/min)
+2019-04-15 10:39:20 [scrapy.core.downloader.handlers.http11] WARNING: Got data loss in http://wz.sun0769.com/index.php/question/questionType?type=4&page=97800. If you want to process broken responses set the setting DOWNLOAD_FAIL_ON_DATALOSS = False -- This message won't be shown in further requests
+2019-04-15 10:40:17 [scrapy.extensions.logstats] INFO: Crawled 2617 pages (at 231 pages/min), scraped 2276 items (at 198 items/min)
+2019-04-15 10:41:17 [scrapy.extensions.logstats] INFO: Crawled 2839 pages (at 222 pages/min), scraped 2462 items (at 186 items/min)
+2019-04-15 10:42:17 [scrapy.extensions.logstats] INFO: Crawled 3121 pages (at 282 pages/min), scraped 2706 items (at 244 items/min)
+2019-04-15 10:43:17 [scrapy.extensions.logstats] INFO: Crawled 3339 pages (at 218 pages/min), scraped 2895 items (at 189 items/min)
+2019-04-15 10:44:17 [scrapy.extensions.logstats] INFO: Crawled 3594 pages (at 255 pages/min), scraped 3112 items (at 217 items/min)
+2019-04-15 10:45:17 [scrapy.extensions.logstats] INFO: Crawled 3969 pages (at 375 pages/min), scraped 3451 items (at 339 items/min)
+2019-04-15 10:46:17 [scrapy.extensions.logstats] INFO: Crawled 4173 pages (at 204 pages/min), scraped 3633 items (at 182 items/min)
+2019-04-15 10:47:17 [scrapy.extensions.logstats] INFO: Crawled 4387 pages (at 214 pages/min), scraped 3819 items (at 186 items/min)
+2019-04-15 10:48:17 [scrapy.extensions.logstats] INFO: Crawled 4781 pages (at 394 pages/min), scraped 4181 items (at 362 items/min)
+2019-04-15 10:48:31 [scrapy.core.downloader.handlers.http11] WARNING: Got data loss in http://wz.sun0769.com/html/question/201812/396046.shtml. If you want to process broken responses set the setting DOWNLOAD_FAIL_ON_DATALOSS = False -- This message won't be shown in further requests
+2019-04-15 10:49:17 [scrapy.extensions.logstats] INFO: Crawled 5222 pages (at 441 pages/min), scraped 4587 items (at 406 items/min)
+2019-04-15 10:50:17 [scrapy.extensions.logstats] INFO: Crawled 5440 pages (at 218 pages/min), scraped 4777 items (at 190 items/min)
+2019-04-15 10:51:17 [scrapy.extensions.logstats] INFO: Crawled 5652 pages (at 212 pages/min), scraped 4955 items (at 178 items/min)
+2019-04-15 10:51:37 [scrapy.spidermiddlewares.httperror] INFO: Ignoring response <404 http://wz.sun0769.com/index.php/question/questionType?type=4&page=88290>: HTTP status code is not handled or not allowed
+2019-04-15 10:52:17 [scrapy.extensions.logstats] INFO: Crawled 5961 pages (at 309 pages/min), scraped 5226 items (at 271 items/min)
+2019-04-15 10:53:17 [scrapy.extensions.logstats] INFO: Crawled 6323 pages (at 362 pages/min), scraped 5553 items (at 327 items/min)
+2019-04-15 10:54:17 [scrapy.extensions.logstats] INFO: Crawled 6666 pages (at 343 pages/min), scraped 5864 items (at 311 items/min)
+2019-04-15 10:55:17 [scrapy.extensions.logstats] INFO: Crawled 6864 pages (at 198 pages/min), scraped 6026 items (at 162 items/min)
+2019-04-15 10:56:17 [scrapy.extensions.logstats] INFO: Crawled 7072 pages (at 208 pages/min), scraped 6198 items (at 172 items/min)

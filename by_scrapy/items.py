@@ -21,3 +21,10 @@ class TencentItem(scrapy.Item):
     people_number = scrapy.Field()
     work_location = scrapy.Field()
     publish_time = scrapy.Field()
+
+class DongGuanItem(scrapy.Item):
+
+    title = scrapy.Field()
+    number = scrapy.Field()
+    content = scrapy.Field()
+    url = scrapy.Field()
