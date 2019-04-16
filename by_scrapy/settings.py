@@ -25,7 +25,7 @@ ROBOTSTXT_OBEY = False
 #CONCURRENT_REQUESTS = 32
 
 # LOG_FILE =  'TencentSpider.log'
-LOG_FILE =  'Douban250.log'
+LOG_FILE =  'Sina.log'
 LOG_LEVEL = 'INFO'
 
 MONGODB_HOST = '127.0.0.1'
@@ -87,7 +87,8 @@ ITEM_PIPELINES = {
    # 'by_scrapy.pipelines.ItcastPipeline': 300,
    # 'by_scrapy.pipelines.DongGuanPipeline': 300,
    # 'by_scrapy.pipelines.TencentJobPipeline': 300,
-   'by_scrapy.pipelines.Douban250Pipeline': 300,
+   # 'by_scrapy.pipelines.Douban250Pipeline': 300,
+   'by_scrapy.pipelines.SinaPipelines': 300,
 }
 
 # Enable and configure the AutoThrottle extension (disabled by default)

@@ -66,3 +66,19 @@ class Douban250Pipeline(object):
         self.post.insert(data)
 
         return item
+
+class SinaPipelines(object):
+
+    def process_item(self, item, spider):
+        son_url = item['son_url']
+        # print(son_url)
+        filename = son_url[7:-6].replace('/', '_') + '.txt'
+        # print(filename)
+        # print(item['sub_filename'])
+
+        with open(item['sub_filename'] + '/' + filename, 'w', encoding='utf-8') as f:
+            f.write(item['head'] + '\n')
+            f.write(item['content'])
+
+        return item
+

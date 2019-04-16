@@ -34,3 +34,23 @@ class Douban250Item(scrapy.Item):
     score = scrapy.Field()
     content = scrapy.Field()
     info = scrapy.Field()
+
+class SinaItem(scrapy.Item):
+    # 大类标题和url
+    parent_title = scrapy.Field()
+    parent_url = scrapy.Field()
+
+    # 小类标题和url
+    sub_title = scrapy.Field()
+    sub_url = scrapy.Field()
+
+    # 小类目录储存路径
+    sub_filename = scrapy.Field()
+
+    # 小类下的子链接
+    son_url = scrapy.Field()
+
+    # 文章标题和内容
+    head = scrapy.Field()
+    content = scrapy.Field()
+    

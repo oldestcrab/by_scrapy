@@ -5,13 +5,13 @@
     "version": "0.2.0",
     "configurations": [
         {
-            "name": "douban250",
+            "name": "sina",
             "type": "python",
             "request": "launch",
             "module": "scrapy",
             "args": [
                 "crawl",
-                "douban250"
+                "sina"
             ],
         },
         {
