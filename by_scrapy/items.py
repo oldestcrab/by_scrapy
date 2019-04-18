@@ -54,3 +54,10 @@ class SinaItem(scrapy.Item):
     head = scrapy.Field()
     content = scrapy.Field()
     
+
+class Images360Item(scrapy.Item):
+
+    id = scrapy.Field()
+    url = scrapy.Field()
+    title = scrapy.Field()
+    thumb = scrapy.Field()
