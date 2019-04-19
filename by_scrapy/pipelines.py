@@ -8,6 +8,9 @@
 import json
 import pymongo
 from scrapy.conf import settings
+from scrapy import Request
+from scrapy.exceptions import DropItem
+from scrapy.pipelines.images import ImagesPipeline
 
 class ItcastPipeline(object):
     def __init__(self):
@@ -82,3 +85,46 @@ class SinaPipelines(object):
 
         return item
 
+class Images360ImagePiples(ImagesPipeline):
+    def file_path(self, request, response=None, info=None):
+        url = request.url
+        file_name = url.split('/')[-1]
+        return file_name
+
+    def get_media_requests(self, item, info):
+        yield Request(item['qhimg_url'])
+
+    def item_completed(self, results, item, info):
+        # print(results)
+        image_paths = [x['path'] for ok, x in results if ok]
+        if not image_paths:
+            raise DropItem('Image Downloaded Failed')
+        return item
+
+class Images360MongoPiples(object):
+    def __init__(self, host, port, dbname, post):
+        self.host = host
+        self.port = port
+        self.dbname = dbname
+        self.post = post
+
+    @classmethod
+    def from_crawler(cls, crawler):
+        return cls(
+            host =  crawler.settings.get('MONGODB_HOST'),
+            port =  crawler.settings.get('MONGODB_PORT'),
+            dbname =  crawler.settings.get('MONGODB_DBNAME_IMAGES360'),
+            post =  crawler.settings.get('MONGODB_DOCNAME_IMAGES360')
+        )
+
+    def open_spider(self, spider):
+
+        self.client = pymongo.MongoClient(host=self.host, port=self.port)
+        self.db = self.client[self.dbname]
+
+    def process_item(self, item, spider):
+        self.db[self.post].insert(dict(item))
+        return item
+    
+    def close_spider(self, spider):
+        self.client.close()
